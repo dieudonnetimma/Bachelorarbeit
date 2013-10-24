@@ -1,0 +1,1033 @@
+\chapter{Anhang 1}
+%\begin{table}[h] 
+%\centering
+\textbf{Menu} \linebreak
+\textbf{Page} \linebreak
+In der Untersuchung von MenuItems in Joomla stellen wir fest, dass es verschiedene Page Type existiert,die dieselbe   Elementen enthalten. Diese Elemente kommen zwar nicht in allen Items, aber so oft genug , damit wir sie eine extra Entität "Menuentry options" in der Grammmatik widmen. Sie besteht aus selbst den Entitäten "Link type Options", "Page Display Options", "Metadata Options"  . Ihre Abbildungen sehen folgenden aus:
+\linebreak
+\linebreak
+\begin{minipage}{0.5\textwidth}
+\begin{tabular}{|p{0.6\textwidth}|p{0.6\textwidth} |}
+\hline
+\textbf{CJSL} 
+&  
+\textbf{JOOMLA} \\ \hline
+\begin{itemize}
+\item Link Title Attribute
+\item Link CSS Style
+\item Link Image
+\item Add Menu Title
+	\begin{enumerate}
+	\item[|-]no| yes
+	\end{enumerate}
+\end{itemize}
+&
+\begin{itemize}
+\item menu-anchor\_title
+\item menu-anchor\_css
+\item menu\_image
+\item menu\_text
+	\begin{enumerate}
+		\item[|-] 0 |1
+	\end{enumerate}
+\end{itemize} \\ \hline
+\end{tabular}
+\captionof{table}{Link Type Options}
+\end{minipage}
+
+\begin{minipage}{0.6\textwidth}
+\begin{tabular}{|p{0.6\textwidth}|p{0.6\textwidth} |}
+\hline
+\textbf{CJSL} 
+&  
+\textbf{JOOMLA} \\ \hline
+\begin{itemize}
+\item Browser Page Title
+	\item Show Page Heading
+	\begin{enumerate}
+	\item[|-]no| yes
+	\end{enumerate}
+	\item Page Heading
+	\item Page Class
+\end{itemize}
+&
+\begin{itemize}
+	\item page\_title
+	\item show\_page\_heading
+	\begin{enumerate}
+	\item[|-] 0 |1
+	\end{enumerate}
+	\item page\_heading
+	\item pageclass\_sfx
+\end{itemize} \\ \hline
+\end{tabular}
+\captionof{table}{Page Display Options}
+\end{minipage}
+
+
+\begin{minipage}{0.6\textwidth}
+\begin{tabular}{|p{0.6\textwidth}|p{0.6\textwidth} |}
+\hline
+\textbf{CJSL} 
+&  
+\textbf{JOOMLA} \\ \hline
+\begin{itemize}
+\item Meta Description
+    \item Meta Keywords
+    \item Robots
+    \begin{enumerate}
+	    \item[-] use global
+	    \item[-] index, follow
+	    \item[-] noindex, follow
+	    \item[-]index, nofollow
+	    \item[-] noindex,nofollow
+    \end{enumerate}
+    \item Secure
+    \begin{enumerate}
+	    \item[-]off| on| ignore
+    \end{enumerate}
+\end{itemize}
+&
+\begin{itemize}
+\item menu-meta\_description
+\item menu-meta\_keywords
+\item robots
+	\begin{enumerate}
+	\item[-] Leer
+	\item[-] index,follow
+	\item[-] noindex, follow
+	\item[-] index,nofollow
+	\item[-] noindex,nofollow
+	\end{enumerate}
+\item secure
+	\begin{enumerate}
+	\item[-]-1| 1| 0
+	\end{enumerate}
+\end{itemize} \\ \hline
+\end{tabular}
+\captionof{table}{Metadata Options}
+\end{minipage}
+\linebreak
+\\
+\textbf{Articelpage}
+\\
+\\
+In dem Contianer CJSL\_Articlepage enthält verschiene Entitäten, die im Joomla Menuitem Type darstellen:
+
+\begin{itemize}
+\item Archived Articles
+\item Single Article
+\item List All Categories
+\item Category Blog
+\item Category List
+\item Featured Articles
+\item Create Article
+\end{itemize} 
+
+Sie besitzen nicht nur die obengenannte Itemoptions gemeinsam, sondern auch verschiedene Entitäten, die nur bei Article Page vorkommen:
+
+\begin{itemize}
+\item Category Options
+\item Categories Options
+\item Blog Layout Options
+\item Ordering and Pagination Options
+\item Article Layout Options
+\item Integrations Options
+\item ArticleSettingtype
+\item OptionSettingtype
+\item MaxLevel Setting
+\end{itemize}
+
+Hier haben wir die Abbildung von den obengenannten Elemente: Die ArticleSettingtype -> ArticleStettingvalue, die ArticleOptiontype -> ArticleOptionvalue, und optionSettingtype -> optionSettingValue
+
+
+\begin{minipage}{0.5\textwidth}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+ use global & leer \\ 
+ \hline
+use article setting & use-article\\ 
+\hline
+hide & 0 \\ 
+\hline
+show & 1 \\ 
+\hline
+\end{tabular}
+\captionof{table}{ArticleSettingtype}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+use global & leer \\ 
+\hline
+hide & 0 \\ 
+\hline
+show & 1 \\  
+\hline
+\end{tabular}
+\captionof{table}{OptionSettingtype}
+\end{minipage}
+
+\begin{minipage}{0.4\textwidth}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+use global & leer \\ 
+\hline
+all & -1 \\ 
+\hline
+none & 0 \\ 
+\hline
+1-5 & 1-5 \\
+\hline
+\end{tabular}
+\captionof{table}{MaxlevelSettingtype}
+\end{minipage}
+\begin{minipage}{0.6\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.5\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+	\item Show Feed Link
+	\begin{enumerate}
+		\item[|-]OptionSettingtype
+	\end{enumerate}
+	\item For each feed item show
+	\begin{enumerate}
+	 \item[|-] use global
+	 \item[|-] intro text
+	 \item[|-] full text
+	\end{enumerate}
+\end{itemize}
+ & 
+\begin{itemize}
+	\item show\_feed\_link
+	 \item[|-]OptionSettingvalue
+	\item feed\_summary
+	\begin{enumerate}
+		 \item[|-]leer
+		 \item[|-]0
+		 \item[|-]1
+		\end{enumerate}
+	
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Integration Options}
+\end{minipage}
+
+\begin{minipage}{0.6\textwidth}
+\begin{tabular}{|p{0.5\textwidth}|p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+	\item Leading Articles 
+	\item Intro Articles
+	\item Columns
+	\item  Links
+	\item Multi Column Order
+	\begin{enumerate}
+	  	\item[-] use global | down | across
+	\end{enumerate} 
+\end{itemize}
+ & 
+\begin{itemize}
+	\item num\_leading\_articles 
+	\item num\_intro\_articles 
+	\item num\_columns 
+	\item num\_links 
+	\item multi\_column\_order
+	\begin{enumerate}
+		\item[-] leer| 0| 1
+	\end{enumerate} 
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Blog Layout Options}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{| p{0.7\textwidth}|p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+	\item Show Top Level Category Description
+	\begin{enumerate}
+			 \item[-] OptionSettingtype
+	\end{enumerate} 
+	\item Subcategory Levels 
+		\begin{enumerate}
+				 \item[-] MaxlevelSettingtype
+		\end{enumerate}
+	\item Empty Categories 
+		\begin{enumerate}
+			 \item[-] OptionSettingtype
+		\end{enumerate}
+	\item Subcategories Descriptions
+	 \begin{enumerate}
+	 		 \item[-] OptionSettingtype
+	 \end{enumerate}
+	\item Articles in Category 
+	  \begin{enumerate}
+			 \item[-] OptionSettingtype
+	\end{enumerate}
+\end{itemize}
+ & 
+\begin{itemize}
+	\item show\_base\_description
+	\begin{enumerate}
+			 \item[-] OptionSettingvalue
+	\end{enumerate} 
+	\item maxLevelcat 
+		\begin{enumerate}
+				 \item[-] MaxlevelSettingvalue
+		\end{enumerate}
+	\item show\_empty\_categories\_cat 
+		\begin{enumerate}
+			 \item[-] OptionSettingvalue
+		\end{enumerate}
+	\item show\_subcat\_desc\_cat
+	 \begin{enumerate}
+	 		 \item[-] OptionSettingvalue
+	 \end{enumerate}
+	\item show\_cat\_num\_articles\_cat 
+	  \begin{enumerate}
+			 \item[-] OptionSettingvalue
+	\end{enumerate}
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Categories Options}
+\end{minipage}
+
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+	\item Category Title 
+		\begin{enumerate}
+			\item[-] OptionSettingtype
+		\end{enumerate} 
+	\item Category Description
+	\begin{enumerate}
+		\item[-] OptionSettingtype
+	\end{enumerate}
+	\item Category Image
+	\begin{enumerate}
+		\item[-] OptionSettingtype
+	\end{enumerate} 
+	\item Subcategory Levels
+	\begin{enumerate}
+		\item[-] OptionSettingtype
+	\end{enumerate} 
+	\item Empty Categories
+	\begin{enumerate}
+			\item[-] OptionSettingtype
+	\end{enumerate}
+	\item No Articles Message
+	\begin{enumerate}
+		\item[-] OptionSettingtype
+	\end{enumerate} 
+	\item Subcategories Descriptions
+	\begin{enumerate}
+		\item[-] OptionSettingtype
+	\end{enumerate}
+	\item Articles in Category
+	\begin{enumerate}
+		\item[-] OptionSettingtype
+	\end{enumerate} 
+\end{itemize}
+ & 
+\begin{itemize}
+	\item show\_category\_title 
+		\begin{enumerate}
+			\item[-] OptionSettingvalue
+		\end{enumerate} 
+	\item show\_description
+	\begin{enumerate}
+		\item[-] OptionSettingvalue
+	\end{enumerate}
+	\item show\_description\_image
+	\begin{enumerate}
+		\item[-] OptionSettingvalue
+	\end{enumerate} 
+	\item maxLevel
+	\begin{enumerate}
+		\item[-] OptionSettingvalue
+	\end{enumerate} 
+	\item show\_empty\_categories
+	\begin{enumerate}
+			\item[-] OptionSettingvalue
+	\end{enumerate}
+	\item show\_no\_articles
+	\begin{enumerate}
+		\item[-] OptionSettingvalue
+	\end{enumerate} 
+	\item show\_subcat\_desc
+	\begin{enumerate}
+		\item[-] OptionSettingvalue
+	\end{enumerate}
+	\item show\_cat\_num\_articles
+	\begin{enumerate}
+		\item[-] OptionSettingvalue
+	\end{enumerate} 
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Category Options}
+\end{minipage}
+
+\begin{minipage}{0.6\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+	\item Display Select
+		\begin{enumerate}
+			\item[-] OptionSettingtype
+		\end{enumerate}
+	\item Filter Field
+		\begin{enumerate}
+			\item[-] OptionSettingtype
+		\end{enumerate} 
+	\item Table Headings
+		\begin{enumerate}
+			\item[-] OptionSettingtype
+		\end{enumerate}
+	\item Show Date 
+		\begin{enumerate}
+			\item[-] OptionSettingtype
+		\end{enumerate} 
+	\item Date Format 
+	\item Show Hits in List
+		\begin{enumerate}
+			\item[-] OptionSettingtype
+		\end{enumerate} 
+	\item Show Author in List
+		\begin{enumerate}
+			\item[-] OptionSettingtype
+		\end{enumerate} 
+\end{itemize}
+ & 
+\begin{itemize}
+	\item show\_pagination\_limit
+		\begin{enumerate}
+			\item[-] OptionSettingvalue
+		\end{enumerate}
+	\item filter\_field
+		\begin{enumerate}
+			\item[-] OptionSettingvalue
+		\end{enumerate} 
+	\item show\_headings
+		\begin{enumerate}
+			\item[-] OptionSettingvalue
+		\end{enumerate}
+	\item list\_show\_date
+		\begin{enumerate}
+			\item[-] OptionSettingvalue
+		\end{enumerate} 
+	\item date\_format 
+	\item list\_show\_hits
+		\begin{enumerate}
+			\item[-] OptionSettingvalue
+		\end{enumerate} 
+	\item list\_show\_author
+		\begin{enumerate}
+			\item[-] OptionSettingvalue
+		\end{enumerate} 	
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{List Layout Options}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.7\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Category Order
+	\begin{enumerate}
+		\item[|-] Use Global | No order
+		\item[|-] Title Alphabetial
+		\item[|-] Title Reverse Alphabetical
+		\item[|-] Category Manager Order
+	\end{enumerate}
+\item  Article Order
+	\begin{enumerate}
+		\item[|-] Use Global
+		\item[|-] Featured Article Order
+		\item[|-] Most Recent First
+		\item[|-] Oldest first
+		\item[|-] Title Alphabetical
+		\item[|-] Title Reverse Alphabetical
+		\item[|-] Author Alphabetical
+		\item[|-] Author Alphabetical Reverse
+		\item[|-] Most Hits 
+		\item[|-] Leasts Hits
+		\item[|-] Article Manager Order 
+	\end{enumerate}
+\item Date for Ordering
+	 \begin{enumerate}
+	 \item[|-]use global| created| modified| published
+	 \end{enumerate}
+\item Pagination
+	 \begin{enumerate}
+	 	 \item[|-]use global|hide |show|auto
+	 \end{enumerate}
+\item Pagination Results
+	\begin{enumerate}
+	\item[|-]use global| hide| show
+	\end{enumerate}
+\end{itemize}
+& 
+\begin{itemize}
+\item orderby\_pri
+	\begin{enumerate}
+		\item[|-] leer* | none
+		\item[|-] alpha 
+		\item[|-]ralpha
+		\item[|-] order
+	\end{enumerate}
+\item orderby\_sec
+	\begin{enumerate}
+		\item[|-] leer* 
+		\item[|-] front
+		\item[|-] rdate 
+		\item[|-] date
+		\item[|-] alpha 
+		\item[|-] ralpha
+		\item[|-] author
+		\item[|-] rauthor
+		\item[|-] hits  
+		\item[|-] rhits
+		\item[|-] order
+	\end{enumerate}
+\item order\_date
+	\begin{enumerate}
+	\item[|-] leer | created | modified | published 
+	\end{enumerate}
+\item show\_pagination
+	\begin{enumerate}
+	\item[|-] leer | 0 | 1 | 2
+	\end{enumerate}
+\item show\_pagination\_results
+	\begin{enumerate}
+	\item[|-] leer | 0 | 1
+	\end{enumerate}
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Ordering and Pagination Options}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p {0.7\textwidth} | p {0.7\textwidth} |}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Show Title
+	\begin{enumerate}
+	\item[|-]ArticleSettingtype
+	\end{enumerate}
+\item Link Titles*
+\item Show Intro*
+\item Show Category*
+\item Link Category*
+\item Show Parent Category*
+\item Link parent category*
+\item Show Author*
+\item Link Author*
+\item Show create Date*
+\item Show Modify Date*
+\item Show Publish Date*
+\item Show Item Navigation*
+\item Show Vote*
+\item Show Readmore*
+\item Show Readmore Title*
+\item Show Icons*
+\item Show Print Icon*
+\item Show Email Icon*
+\item Show Hits*
+\item Show Unauthorised Links*
+\end{itemize} 
+&
+\begin{itemize}
+\item show\_title
+	\begin{enumerate}
+     \item[-]ArticleSettingvalue
+	\end{enumerate}	
+\item link\_titles*
+\item show\_intro*
+\item show\_category*
+\item link\_category*
+\item show\_parent\_category*
+\item link\_parent\_category*
+\item show\_author*
+\item link\_author*
+\item show\_create\_date*
+\item show\_modify\_date*
+\item show\_publish\_date*
+\item show\_item\_navigation*
+\item show\_vote*
+\item show\_readmore*
+\item show\_readmore\_title*
+\item show\_icons*
+\item show\_print\_icon*
+\item show\_email\_icon*
+\item show\_hits*
+\item show\_noauth*
+\end{itemize}
+\\ \hline
+\end{tabular}
+\captionof{table}{Article Settings Options}
+\end{minipage}
+
+* bedeudet, dass der Element ArticleSettingtype B.z AticleSettingvalue als Parameter hat.
+
+\begin{minipage}{0.7\textwidth}
+\begin{longtable}{| p {0.7\textwidth} |p {0.7\textwidth}|}
+\hline
+\textbf{CJSL} 
+&  
+\textbf{JOOMLA} \\ \hline
+ 1- List all Categories
+  \begin{itemize}
+    \item Basic  Setting 
+   		\begin{enumerate}
+   			\item[-] Select a Category
+   		\end{enumerate}
+   	\item Categories Options
+	   	\begin{enumerate}
+	    \item[+] Top Level Category Description
+	   \end{enumerate}
+   	\item Category Options
+   	\item Blog Layout Options
+   		\begin{enumerate}
+   	   			\item[+] Include Subcategories
+   			         \begin{enumerate}
+   			          \item[|-] MaxlevelSettingType
+   			         \end{enumerate}
+   	   		\end{enumerate}
+   	\item Ordering and Pagination Options
+   	\item List Layout Options
+   	\begin{enumerate}
+   	\item[+] Articles to List
+   			\begin{enumerate}
+   				\item[|-] 5 bis 100 | all
+   			\end{enumerate}
+   	\end{enumerate}
+   	\item Artikel Layout Options
+   	\item Integration Options
+   	\item Menuentry Options
+ \end{itemize}
+&
+\textbf{.}List all Categories
+	 \begin{itemize}
+       \item Required  Setting 
+      		\begin{enumerate}
+      			\item[-] featured\_categories
+      		\end{enumerate}
+      	\item Categories Options
+      		\begin{enumerate}
+      		    \item[+] categories\_description
+      		   \end{enumerate}
+   	   	\item Category Options
+   	   	\item Blog Layout Options
+   	   		\begin{enumerate}
+   	   	   	   			\item[+] show\_subcategory\_content
+   	   	   			         \begin{enumerate}
+   	   	   			          \item[|-] MaxlevelSettingvalue
+   	   	   			         \end{enumerate}
+   	   	   	   		\end{enumerate}
+   	   	\item Ordering and Pagination Options
+   	   	\item List Layout Options
+   	   	\begin{enumerate}
+   	   	\item[+] display\_num
+   	   	\begin{enumerate}
+   	   				\item[|-] 5 bis 100 | 0
+   	   			\end{enumerate}
+   	   	\end{enumerate}
+   	   	\item Artikel Layout Options
+   	   	\item Integration Options
+   	   	\item Menuitem Options  
+     \end{itemize}   
+ 	\\ \hline
+2- Archived Article
+\begin{itemize}
+ \item Basic  Setting 
+   		\begin{enumerate}
+   		\item[-] Article Order (A.12) 
+   		\item[-] Date for Ordering (A.12) 
+   		\item[-] Articles to List (A.11)
+   		\item[-] Filter Field (A.11) 
+   		\item[-] Intro text Limit
+   		\end{enumerate}
+ 	\item Artikel Layout Options
+	\item Menuentry Options
+\end{itemize}
+&
+2- Archived Article
+\begin{itemize}
+	\item Required  Setting 
+   		\begin{enumerate}
+   		\item[-] orderby\_sec (A.12)
+   		\item[-] order\_date (A.12)
+   		\item[-] display\_num (A.11) 
+   		\item[-] filter\_field (A.11) 
+   		\item[-] introtext\_limit 
+   		\end{enumerate}
+ 	\item Artikel Layout Options
+	\item Menuitem Options
+\end{itemize}
+\\ \hline
+\end{longtable}
+\end{minipage}
+
+\begin{minipage}{0.8\textwidth}
+\begin{longtable}{| p {0.7\textwidth} |p {0.7\textwidth}|}
+\hline
+\textbf{CJSL} 
+&  
+\textbf{JOOMLA} \\ \hline
+4- Featured Articles
+\begin{itemize}
+	\item Required  Setting 
+  		\begin{enumerate}
+  		\item[-] Select Categories
+  		\item[-] ...
+		\end{enumerate}
+	\item Blog Layout Options
+   	\item Ordering and Pagination Options
+   	\item Artikel Layout Options
+   	\item Integration Options
+   	\item Menuentry Options  
+\end{itemize}
+&
+4- Featured Articles
+\begin{itemize}
+	\item Required  Setting 
+  		\begin{enumerate}
+  		\item[-] featured\_categories
+  		\item[-] layout\_type
+		\end{enumerate}
+	\item Blog Layout Options
+   	\item Ordering and Pagination Options
+   	\item Artikel Layout Options
+   	\item Integration Options
+   	\item Menuitem Options  
+\end{itemize}
+\\ \hline
+5-Category Blog Article
+\begin{itemize}
+\item Basic Setting
+	\begin{enumerate}
+		\item[-] Select Categories
+		\item[-] .... 
+	 \end{enumerate}
+\item Category Options
+	\begin{enumerate}
+		\item[+] Show Subcategories Text
+			\begin{enumerate}
+			\item[|-] OptionSettingsType
+			\end{enumerate}
+		\item[+] Page Subheading
+	\end{enumerate}
+\item Blog Layout Options
+	\begin{enumerate}
+		\item[+] Include Subcategories
+			\begin{enumerate}
+			\item[|-] MaxlevelSettingType
+			\end{enumerate}
+	\end{enumerate}
+\item Ordering and Pagination Options
+\item Artikel Layout Options
+\item Integration Options
+\item Menuentry Options  
+\end{itemize}
+&
+5- Category Blog Article
+\begin{itemize}
+\item Basic Setting
+	\begin{enumerate}
+		\item[-] featured\_categories
+		\item[-] layout\_type 
+	 \end{enumerate}
+\item Category Options
+	\begin{enumerate}
+		\item[+] show\_category\_heading\_title\_text
+			\begin{enumerate}
+			\item[|-] OptionSettingsValue
+			\end{enumerate}
+		\item[+] page\_subheading
+	\end{enumerate}
+\item Blog Layout Options
+	\begin{enumerate}
+		\item[+] show\_subcategory\_content
+			\begin{enumerate}
+			\item[|-] MaxlevelSettingValue
+			\end{enumerate}
+	\end{enumerate}
+\item Ordering and Pagination Options
+\item Artikel Layout Options
+\item Integration Options
+\item Menuitem Options 
+\end{itemize}
+\\ \hline
+\end{longtable}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{longtable}{| p {0.7\textwidth} |p {0.8\textwidth}|}
+\hline
+\textbf{CJSL} 
+&  
+\textbf{JOOMLA} \\ \hline
+6-Category List Articles
+\begin{itemize}
+\item Basic Setting
+	\begin{enumerate}
+			\item[-] Featured Categories
+	 \end{enumerate}
+\item Category Options
+	\begin{enumerate}
+		\item[+]Show Category heading Title  
+			\begin{enumerate}
+			\item[|-] OptionSettingsType
+			\end{enumerate}
+		\item[+] Page Subheading
+	\end{enumerate}
+\item List Layout Options
+\begin{enumerate}
+   	   	\item[+] Articles to List
+   	   	\begin{enumerate}
+   	   				\item[|-] 5 bis 100 | 0
+   	   			\end{enumerate}
+   	   	\end{enumerate}
+\item Ordering and Pagination Options
+\item Artikel Layout Options
+\item Integration Options
+\item Menuentry Options
+\end{itemize}
+&
+6-Category List Articles
+\begin{itemize}
+\item Basic Setting
+	\begin{enumerate}
+			\item[-] featured\_categories
+	 \end{enumerate}
+\item Category Options
+	\begin{enumerate}
+		\item[+] show\_category\_heading\_title\_text
+			\begin{enumerate}
+			\item[|-] OptionSettingsValue
+			\end{enumerate}
+	 \item[+] page\_subheading
+	\end{enumerate}
+\item List Layout Options
+\begin{enumerate}
+   	   	\item[+] display\_num
+   	   	\begin{enumerate}
+   	   				\item[|-] 5 bis 100 | 0
+   	   			\end{enumerate}
+   	   	\end{enumerate}
+\item Ordering and Pagination Options
+\item Artikel Layout Options
+\item Integration Options
+\item Menuitem Options 
+\end{itemize}
+\\ \hline
+7-Create Article
+\begin{itemize}
+\item Basic Setting
+	\begin{enumerate}
+			\item[-] Default category 
+			\item[-] Choose a category 
+	 \end{enumerate}
+\item Menuentry Options
+\end{itemize}
+&
+7-Create Article
+\begin{itemize}
+\item Basic Setting
+	\begin{enumerate}
+			\item[-] enable\_category 
+			\item[-] catid 
+	 \end{enumerate}
+\item Menuitem Options
+\end{itemize}
+\\ \hline
+3-Single Article
+\begin{itemize}
+	\item Basic  Setting
+		\begin{enumerate}
+		\item[-] Select Article
+		\end{enumerate}
+	\item Artikel Layout Options
+   	\item Integration Options
+   	\item Menuentry Options
+  \end{itemize}
+&
+3-Single Article
+ \begin{itemize}
+ 	\item Required  Setting
+ 		\begin{enumerate}
+ 		\item[-] id
+ 		\end{enumerate}
+ 	\item Artikel Layout Options
+    \item Integration Options
+    \item Menuitem Options 	
+\end{itemize}
+\\ \hline
+\end{longtable}
+\end{minipage}
+
+
+
+\textbf{UserPage}
+
+Der Container USerpage besteht aus verschiedene Entitäten, die sich um die Darstellung des User widmen:
+\begin{itemize}
+	\item Login Form
+	\item User Profile
+	\item Edit User Profile
+	\item Registration Form
+	\item Username Reminder Request
+	\item Password Reset
+\end{itemize}
+
+\begin{minipage}{0.7\textwidth}
+\begin{longtable}{| p {0.7\textwidth} |p {0.8\textwidth}|}
+\hline
+\textbf{CJSL}
+&  
+\textbf{JOOMLA} \\ \hline
+1- Login Form 
+\begin{itemize}
+\item Basic Options
+	\begin{enumerate}
+	\item[-]  Login Redirect
+	\item[-]  Login Description
+	\begin{enumerate}
+	\item[|-]hide |show 
+	\end{enumerate}
+	\item[-]  Login Description Text 
+	\item[-]  Login Image 
+	\item[-]  Logout Redirect 
+	\item[-]  Logout Text
+	\begin{enumerate}
+		\item[|-]hide | show
+	\end{enumerate} 
+	\item[-]  Logout Description Text 
+	\item[-]  Logout image 
+	\end{enumerate}
+\item Menuentry Options
+\end{itemize} 
+&
+1- Login Form 
+\begin{itemize}
+\item Basic Options
+	\begin{enumerate}
+	\item[-]  login\_redirect\_url
+	\item[-]  logindescription\_show
+	\begin{enumerate}
+	\item[|-]0 | 1
+	\end{enumerate}
+	\item[-]  login\_description 
+	\item[-]  login\_image 
+	\item[-]  logout\_redirect\_url 
+	\item[-]  logoutdescription\_show
+	\begin{enumerate}
+		\item[|-]0 | 1
+	\end{enumerate} 
+	\item[-]  logout\_description 
+	\item[-]  logout\_image 
+	\end{enumerate}
+\item Menuitem Options
+\end{itemize} 
+\\ \hline
+2- Login Form
+\begin{itemize}
+\item Menuentry Options
+\end{itemize}
+&
+2- Login Form
+\begin{itemize}
+\item Menuitem Options
+\end{itemize}
+\\ \hline
+3- User Profile
+\begin{itemize}
+\item Menuentry Options
+\end{itemize}
+&
+3-User Profile
+\begin{itemize}
+\item Menuitem Options
+\end{itemize}
+\\ \hline
+4- Edit User Profile
+\begin{itemize}
+\item Menuentry Options
+\end{itemize}
+&
+4-Edit User Profile
+\begin{itemize}
+\item Menuitem Options
+\end{itemize}
+\\ \hline
+5-Registration Form
+\begin{itemize}
+\item Menuentry Options
+\end{itemize}
+&
+5-Registration Form
+\begin{itemize}
+\item Menuitem Options
+\end{itemize}
+\\ \hline
+6-Username Reminder Request
+\begin{itemize}
+\item Menuentry Options
+\end{itemize}
+&
+6-Username Reminder Request
+\begin{itemize}
+\item Menuitem Options
+\end{itemize}
+\\ \hline
+7-Password Reset
+\begin{itemize}
+\item Menuentry Options
+\end{itemize}
+&
+7-Password Reset
+\begin{itemize}
+\item Menuitem Options
+\end{itemize}
+\\ \hline
+\end{longtable}
+\end{minipage}
+
+admin\chapter{Anhang 2}
+

@@ -1,0 +1,1502 @@
+#LyX file created by tex2lyx 2.0.6
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass scrreprt
+\options final,paper=a4,paper=portrait,pagesize=auto,fontsize=11pt,version=last
+\use_default_options false
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\paperfontsize default
+\spacing single
+\use_hyperref 0
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 0
+\use_mathdots 0
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+
+Anhang 1
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+begin{table}[h] 
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+centering
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+Hier haben wir die Abbildung von der Menutype Featured Article von Joomla in page. Bei der Untersuchung diese menutype stellen wir wir viel wiederehrende Elemente: Die ArticleSettingtype->ArticleStettingvalue, die ArticleOption->ArticleOption, und optionSettingtype->optionSettingValue.
+\end_layout
+
+\begin_layout Standard
+
+text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+ text 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset Tabular 
+<lyxtabular version="3" rows="5" columns="2">
+<features islongtable="true">
+<column alignment="none" valignment="top" width="8cm">
+<column alignment="none" valignment="top" width="8cm">
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\series bold
+JOOMLA
+\series default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\series bold
+CJSL
+\series default
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+
+Featured Articles 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+Required Setting 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- featured_categories 
+\end_layout
+
+\begin_layout Enumerate
+
+- layout_type 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+Layout Options 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- num_leading_articles 
+\end_layout
+
+\begin_layout Enumerate
+
+- num_intro_articles 
+\end_layout
+
+\begin_layout Enumerate
+
+- num_columns 
+\end_layout
+
+\begin_layout Enumerate
+
+- num_links 
+\end_layout
+
+\begin_layout Enumerate
+
+- multi_column_order 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|- leer* | 0 
+\end_layout
+
+\begin_layout Enumerate
+
+|- 1 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- orderby_pri 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|- leer* | none 
+\end_layout
+
+\begin_layout Enumerate
+
+|- alpha | ralpha 
+\end_layout
+
+\begin_layout Enumerate
+
+|- order 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- orderby_sec 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|- leer* | front 
+\end_layout
+
+\begin_layout Enumerate
+
+|- rdate | date 
+\end_layout
+
+\begin_layout Enumerate
+
+|- alpha | ralpha 
+\end_layout
+
+\begin_layout Enumerate
+
+|- author| rauthor 
+\end_layout
+
+\begin_layout Enumerate
+
+|- hits | rhits 
+\end_layout
+
+\begin_layout Enumerate
+
+|- order 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+
+Featured Articles 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+Required Settings 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- Select Categories 
+\end_layout
+
+\begin_layout Enumerate
+
+- .... 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+Layout Options 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- Leading Articles 
+\end_layout
+
+\begin_layout Enumerate
+
+- Intro Articles 
+\end_layout
+
+\begin_layout Enumerate
+
+- Columns 
+\end_layout
+
+\begin_layout Enumerate
+
+- links 
+\end_layout
+
+\begin_layout Enumerate
+
+- Multi Column Order 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|- Use Global* | Down 
+\end_layout
+
+\begin_layout Enumerate
+
+|- Across 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- Category Order 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|- Use Global | No order 
+\end_layout
+
+\begin_layout Enumerate
+
+|- Title Alphabetial| Title Reverse Alphabetical 
+\end_layout
+
+\begin_layout Enumerate
+
+|- Category Manager Order 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- Article Order 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|- Use Global| Featured Article Order 
+\end_layout
+
+\begin_layout Enumerate
+
+|- Most Recent First| Oldest first 
+\end_layout
+
+\begin_layout Enumerate
+
+|- Title Alphabetical| Title Reverse Alphabetical 
+\end_layout
+
+\begin_layout Enumerate
+
+|- Author Alphabetical| Author Alphabetical Reverse 
+\end_layout
+
+\begin_layout Enumerate
+
+|- Most Hits | Leasts Hits 
+\end_layout
+
+\begin_layout Enumerate
+
+|- Article Manager Order 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+
+Featured Articles 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+Layout Options 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- order_date 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|- leer | created | modified | published 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- show_pagination 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|- leer | 0 | 1 | 2 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- show_pagination_results 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|- leer | 0 | 1 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+
+Article Options 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- show_title 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|- leer | use article | 0 | 1 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- link_titles 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_intro 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_category 
+\end_layout
+
+\begin_layout Enumerate
+
+- link_category 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_parent_category 
+\end_layout
+
+\begin_layout Enumerate
+
+- link_parent_category 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_author 
+\end_layout
+
+\begin_layout Enumerate
+
+- link_author 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_create_date 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_modify_date 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_publish_date 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_item_navigation 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_vote 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_readmore 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_readmore_title 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_icons 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_print_icon 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_email_icon 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_hits 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_noauth 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+
+Featured Articles 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+Layout Options 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- Date for Ordering 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|-use global| created| modified| published 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- Pagination 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|-use global|hide |show|auto 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- Pagination Results 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|-use global| hide| show 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+
+Article Options 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- Show Title 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|-use global| use article setting| hide| show 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- Link Titles 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Intro 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Category 
+\end_layout
+
+\begin_layout Enumerate
+
+- Link Category 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Parent Category 
+\end_layout
+
+\begin_layout Enumerate
+
+- Link parent category 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Author 
+\end_layout
+
+\begin_layout Enumerate
+
+- Link Author 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show create Date 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Modify Date 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Publish Date 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Item Navigation 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Vote 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Readmore 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Readmore Title 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Icons 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Print Icon 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Email Icon 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Hits 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Unauthorised Links 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+
+Featured Articles 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+Integration Options 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- show_feed_link 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+| leer| 0| 1 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- feed_summary 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+| leer| 0| 1 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+
+Link Type Options 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- menu-anchor_title 
+\end_layout
+
+\begin_layout Enumerate
+
+- menu-anchor_css 
+\end_layout
+
+\begin_layout Enumerate
+
+- menu_image 
+\end_layout
+
+\begin_layout Enumerate
+
+- menu_text 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|- 0 |1 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+
+Page Display Options 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- page_title 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_page_heading 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|- 0 |1 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- page_heading 
+\end_layout
+
+\begin_layout Enumerate
+
+- pageclass_sfx 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+Metadata Options 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- menu-meta_description 
+\end_layout
+
+\begin_layout Enumerate
+
+- menu-meta_keywords 
+\end_layout
+
+\begin_layout Enumerate
+
+- robots 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|- Leer| index,follow| noindex, follow| index,nofollow| noindex,nofollow 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- secure 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+|--1| 1| 0 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+
+Featured Articles 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+Integration Options 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- Show Feed Link 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+use global| hide| show 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- For each feed item show 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+use global| intro text| full text 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+
+Link Type Options 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- Link Title Attribute 
+\end_layout
+
+\begin_layout Enumerate
+
+- Link CSS Style 
+\end_layout
+
+\begin_layout Enumerate
+
+- Link Image 
+\end_layout
+
+\begin_layout Enumerate
+
+- Add Menu Title 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+no| yes 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+
+Page Display Options 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- Browser Page Title 
+\end_layout
+
+\begin_layout Enumerate
+
+- Show Page Heading 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+no| yes 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- Page Heading 
+\end_layout
+
+\begin_layout Enumerate
+
+- Page Class 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+Metadata Options 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- Meta Description 
+\end_layout
+
+\begin_layout Enumerate
+
+- Meta Keywords 
+\end_layout
+
+\begin_layout Enumerate
+
+- Robots 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+use global| index, follow| noindex, follow| index, nofollow| noindex,nofollow 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+- Secure 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+off| on| ignore 
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\end_inset
+</cell>
+</row>
+<row caption="true">
+<cell multicolumn="1" alignment="none" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\begin_inset Caption
+
+\begin_layout Standard
+
+Featured Menu
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+% needs to go inside longtable environment
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:myfirstlongtable"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="none" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+%
+\backslash
+end{table} 
+\end_layout
+
+\begin_layout Standard
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:myfirstlongtable"
+
+\end_inset
+
+ Die Menupunkt. 
+\begin_inset Newline newline
+\end_inset
+
+ Die wiederverwendbaren Elemente sind:
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{*Umgebungsname*}
+\end_layout
+
+\end_inset
+
+ Inhalt... 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{*Umgebungsname*}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Tabular 
+<lyxtabular version="3" rows="2" columns="2">
+<features islongtable="true">
+<column alignment="none" valignment="top" width="8cm">
+<column alignment="none" valignment="top" width="8cm">
+<row>
+<cell alignment="none" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\series bold
+JOOMLA
+\series default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+
+\series bold
+CJSL
+\series default
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+
+b) List all Categories 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- show_base_description 
+\end_layout
+
+\begin_layout Enumerate
+
+- categories_description 
+\end_layout
+
+\begin_layout Enumerate
+
+- maxLevelcat 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_empty_categories_cat 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_subcat_desc_cat 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_cat_num_articles_cat 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_category_title 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_description 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_description_image 
+\end_layout
+
+\begin_layout Enumerate
+
+- maxLevel 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_empty_categories 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_no_articles 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_subcat_desc 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_cat_num_articles 
+\end_layout
+
+\end_deeper
+\end_inset
+</cell>
+<cell alignment="none" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Enumerate
+
+b) List all Categories 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+- show_base_description 
+\end_layout
+
+\begin_layout Enumerate
+
+- categories_description 
+\end_layout
+
+\begin_layout Enumerate
+
+- maxLevelcat 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_empty_categories_cat 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_subcat_desc_cat 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_cat_num_articles_cat 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_category_title 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_description 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_description_image 
+\end_layout
+
+\begin_layout Enumerate
+
+- maxLevel 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_empty_categories 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_no_articles 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_subcat_desc 
+\end_layout
+
+\begin_layout Enumerate
+
+- show_cat_num_articles 
+\end_layout
+
+\end_deeper
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+
+Anhang 2
+\end_layout
+
+\end_body
+\end_document
