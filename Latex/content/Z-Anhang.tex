@@ -3,7 +3,7 @@
 %\centering
 \textbf{Menu} \linebreak
 \textbf{Page} \linebreak
-In der Untersuchung von MenuItems in Joomla stellen wir fest, dass es verschiedene Page Type existiert,die dieselbe   Elementen enthalten. Diese Elemente kommen zwar nicht in allen Items, aber so oft genug , damit wir sie eine extra Entität \" Menuentry options\" in der Grammmatik widmen. Sie besteht aus selbst den Entitäten "Link type Options", "Page Display Options", "Metadata Options"  . Ihre Abbildungen sehen folgenden aus:
+In der Untersuchung von MenuItems in Joomla stellen wir fest, dass es verschiedene Page Type existiert,die dieselbe   Elementen enthalten. Diese Elemente kommen zwar nicht in allen Items, aber so oft genug , damit wir sie eine extra Entität  Menuentry options in der Grammmatik widmen. Sie besteht aus selbst den Entitäten "Link type Options", "Page Display Options", "Metadata Options"  . Ihre Abbildungen sehen folgenden aus:
 \linebreak
 \linebreak
 \begin{minipage}{0.5\textwidth}
@@ -277,10 +277,6 @@ none & 0 \\
 	 \begin{enumerate}
 	 		 \item[-] OptionSettingtype
 	 \end{enumerate}
-	\item Articles in Category 
-	  \begin{enumerate}
-			 \item[-] OptionSettingtype
-	\end{enumerate}
 \end{itemize}
  & 
 \begin{itemize}
@@ -300,10 +296,6 @@ none & 0 \\
 	 \begin{enumerate}
 	 		 \item[-] OptionSettingvalue
 	 \end{enumerate}
-	\item show\_cat\_num\_articles\_cat 
-	  \begin{enumerate}
-			 \item[-] OptionSettingvalue
-	\end{enumerate}
 \end{itemize}
 \\
 \hline
@@ -338,18 +330,10 @@ none & 0 \\
 	\begin{enumerate}
 			\item[-] OptionSettingtype
 	\end{enumerate}
-	\item No Articles Message
-	\begin{enumerate}
-		\item[-] OptionSettingtype
-	\end{enumerate} 
 	\item Subcategories Descriptions
 	\begin{enumerate}
 		\item[-] OptionSettingtype
 	\end{enumerate}
-	\item Articles in Category
-	\begin{enumerate}
-		\item[-] OptionSettingtype
-	\end{enumerate} 
 \end{itemize}
  & 
 \begin{itemize}
@@ -372,16 +356,8 @@ none & 0 \\
 	\item show\_empty\_categories
 	\begin{enumerate}
 			\item[-] OptionSettingvalue
-	\end{enumerate}
-	\item show\_no\_articles
-	\begin{enumerate}
-		\item[-] OptionSettingvalue
 	\end{enumerate} 
 	\item show\_subcat\_desc
-	\begin{enumerate}
-		\item[-] OptionSettingvalue
-	\end{enumerate}
-	\item show\_cat\_num\_articles
 	\begin{enumerate}
 		\item[-] OptionSettingvalue
 	\end{enumerate} 
@@ -620,8 +596,22 @@ none & 0 \\
    	\item Categories Options
 	   	\begin{enumerate}
 	    \item[+] Top Level Category Description
+	    \item[+] Articles in Category 
+	    	  \begin{enumerate}
+	    			 \item[-] OptionSettingtype
+	    	\end{enumerate}
 	   \end{enumerate}
    	\item Category Options
+   	\begin{enumerate}
+   	\item[+] Articles in Category
+   		\begin{enumerate}
+   			\item[|-] OptionSettingtype
+   		\end{enumerate}
+   	\item[+] No Articles Message
+   		\begin{enumerate}
+   			\item[-] OptionSettingtype
+   		\end{enumerate} 
+   	\end{enumerate}
    	\item Blog Layout Options
    		\begin{enumerate}
    	   			\item[+] Include Subcategories
@@ -651,8 +641,22 @@ none & 0 \\
       	\item Categories Options
       		\begin{enumerate}
       		    \item[+] categories\_description
+      		    \item[+] show\_cat\_num\_articles\_cat 
+      		    	  \begin{enumerate}
+      		    			 \item[|-] OptionSettingvalue
+      		    	\end{enumerate}
       		   \end{enumerate}
    	   	\item Category Options
+   	   		\begin{enumerate}
+   	   	   	\item[+] show\_cat\_num\_articles
+   	   	   		\begin{enumerate}
+   	   	   			\item[|-] OptionSettingtype
+   	   	   		\end{enumerate} 
+   	   	   	\item[+] show\_no\_articles
+   	   	   		\begin{enumerate}
+   	   	   			\item[|-] OptionSettingvalue
+   	   	   		\end{enumerate}
+   	   	   	\end{enumerate}
    	   	\item Blog Layout Options
    	   		\begin{enumerate}
    	   	   	   			\item[+] show\_subcategory\_content
@@ -702,6 +706,7 @@ none & 0 \\
 \end{itemize}
 \\ \hline
 \end{longtable}
+\captionof{table}{Articlepages I}
 \end{minipage}
 
 \begin{minipage}{0.8\textwidth}
@@ -752,6 +757,14 @@ none & 0 \\
 			\item[|-] OptionSettingsType
 			\end{enumerate}
 		\item[+] Page Subheading
+	   	\item[+] Articles in Category
+	   		\begin{enumerate}
+	   			\item[|-] OptionSettingtype
+	   		\end{enumerate}
+	   	\item[+] No Articles Message
+	   		\begin{enumerate}
+	   			\item[|-] OptionSettingtype
+	   		\end{enumerate}
 	\end{enumerate}
 \item Blog Layout Options
 	\begin{enumerate}
@@ -780,6 +793,14 @@ none & 0 \\
 			\item[|-] OptionSettingsValue
 			\end{enumerate}
 		\item[+] page\_subheading
+		\item[+] show\_cat\_num\_articles
+	   		\begin{enumerate}
+	   			\item[|-] OptionSettingtype
+	   		\end{enumerate}
+	   	\item[+] show\_no\_articles
+	   		\begin{enumerate}
+	   			\item[|-] OptionSettingvalue
+	   		\end{enumerate} 
 	\end{enumerate}
 \item Blog Layout Options
 	\begin{enumerate}
@@ -795,6 +816,7 @@ none & 0 \\
 \end{itemize}
 \\ \hline
 \end{longtable}
+\captionof{table}{Articlepages II}
 \end{minipage}
 
 \begin{minipage}{0.7\textwidth}
@@ -816,6 +838,14 @@ none & 0 \\
 			\item[|-] OptionSettingsType
 			\end{enumerate}
 		\item[+] Page Subheading
+		\item[+] Articles in Category
+	   		\begin{enumerate}
+	   			\item[|-] OptionSettingtype
+	   		\end{enumerate}
+	   	\item[+] No Articles Message
+	   		\begin{enumerate}
+	   			\item[|-] OptionSettingtype
+	   		\end{enumerate}  
 	\end{enumerate}
 \item List Layout Options
 \begin{enumerate}
@@ -843,6 +873,14 @@ none & 0 \\
 			\item[|-] OptionSettingsValue
 			\end{enumerate}
 	 \item[+] page\_subheading
+	 \item[+] show\_cat\_num\_articles
+    		\begin{enumerate}
+    			\item[|-] OptionSettingtype
+    		\end{enumerate} 
+	 \item[+] show\_no\_articles
+	 	\begin{enumerate}
+	 		\item[-] OptionSettingvalue
+	 	\end{enumerate}  
 	\end{enumerate}
 \item List Layout Options
 \begin{enumerate}
@@ -900,6 +938,7 @@ none & 0 \\
 \end{itemize}
 \\ \hline
 \end{longtable}
+\captionof{table}{Articlepages III}
 \end{minipage}
 
 
@@ -977,6 +1016,7 @@ Der Container USerpage besteht aus verschiedene Entitäten, die sich um die Dars
 \end{itemize}
 \\ \hline
 \end{longtable}
+\captionof{table}{Userpage I}
 \end{minipage}
 
 \begin{minipage}{0.7\textwidth}
@@ -1036,10 +1076,290 @@ Der Container USerpage besteht aus verschiedene Entitäten, die sich um die Dars
 \end{itemize}
 \\ \hline
 \end{longtable}
+\captionof{table}{Userpages II}
 \end{minipage}
 
 
+
 \textbf{Contacts}
+
+Wie schon bei den Articlepage, stellen wir schnell fest, dass es verschiedenen wiederkehrende Elemente gibt, die in ENtitäten umwandeln kann :
+\begin{itemize}
+\item Categories Options
+\item Category Options
+\item List Layout Options
+\item Contact Display Options
+\item Form for Email Options
+\end{itemize}
+
+\begin{minipage}{0.7\textwidth}
+\begin{longtable}{| p {0.7\textwidth} |p {0.8\textwidth}|}
+\hline
+\textbf{CJSL}
+&  
+\textbf{JOOMLA} \\ \hline
+ \begin{enumerate}
+	\item[-] Show Contact Form
+		\begin{enumerate}
+	   			\item[|-] OptionSettingtype
+	   		\end{enumerate} 
+	\item[-] Send Copy to Submitter
+		\begin{enumerate}
+	   			\item[|-] OptionSettingtype
+	   		\end{enumerate}
+	\item[-] Banned Email 
+	\item[-] Banned Subject 
+	\item[-] Banned Text
+	\item[-] Session Check
+		\begin{enumerate}
+	   			\item[|-] OptionSettingtype
+	   		\end{enumerate} 
+	\item[-] Custom Reply
+		\begin{enumerate}
+	   			\item[|-] OptionSettingtype
+	   		\end{enumerate} 
+	\item[-] Contact Redirect
+	\end{enumerate}
+ &
+ \begin{enumerate}
+	\item[-] show\_email\_form
+		\begin{enumerate}
+	   			\item[|-] OptionSettingvalue
+	   		\end{enumerate} 
+	\item[-] show\_email\_copy
+		\begin{enumerate}
+	   			\item[|-] OptionSettingvalue
+	   		\end{enumerate} 
+	\item[-] banned\_email 
+	\item[-] banned\_subject 
+	\item[-] banned\_text 
+	\item[-] validate\_session
+		\begin{enumerate}
+	   			\item[|-] OptionSettingtype
+	   		\end{enumerate} 
+	\item[-] custom\_reply
+		\begin{enumerate}
+	   			\item[|-] OptionSettingtype
+	   		\end{enumerate} 
+	\item[-] redirect
+	\end{enumerate}
+\\ \hline
+\end{longtable}
+\captionof{table}{Form for Email Options}
+\end{minipage}
+
+
+\begin{minipage}{0.6\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+		\item[-] Display Select
+		\begin{enumerate}
+	   			\item[|-] OptionSettingtype
+	   		\end{enumerate}  
+		\item[-] Table Headings
+		\begin{enumerate}
+   			\item[|-] OptionSettingtype
+   		\end{enumerate} 
+		\item[-] Position
+			\begin{enumerate}
+		   			\item[|-] OptionSettingtype
+		   		\end{enumerate} 
+		\item[-] Email
+			\begin{enumerate}
+		   			\item[|-] OptionSettingtype
+		   		\end{enumerate} 
+		\item[-] Phone
+			\begin{enumerate}
+		   			\item[|-] OptionSettingtype
+		   		\end{enumerate} 
+		\item[-] Mobile
+			\begin{enumerate}
+		   			\item[|-] OptionSettingtype
+		   		\end{enumerate} 
+		\item[-] Fax
+			\begin{enumerate}
+		   			\item[|-] OptionSettingtype
+		   		\end{enumerate} 
+		\item[-] City or Suburb
+			\begin{enumerate}
+		   			\item[|-] OptionSettingtype
+		   		\end{enumerate} 
+		\item[-] State or County
+			\begin{enumerate}
+		   			\item[|-] OptionSettingtype
+		   		\end{enumerate} 
+		\item[-] Country
+			\begin{enumerate}
+		   			\item[|-] OptionSettingtype
+		   		\end{enumerate} 
+		\item[-] Pagination
+			\begin{enumerate}
+		   			\item[|-] OptionSettingtype
+		   		\end{enumerate} 
+		\item[-] Pagination Results
+			\begin{enumerate}
+		   			\item[|-] OptionSettingtype
+		   		\end{enumerate}
+	\end{itemize}
+ & 
+\begin{itemize}
+		\item[-] show\_pagination\_limit
+		\begin{enumerate}
+	   			\item[|-] OptionSettingvalue
+	   		\end{enumerate}  
+		\item[-] show\_headings
+		\begin{enumerate}
+		   			\item[|-] OptionSettingvalue
+		   		\end{enumerate} 
+		\item[-] show\_position\_headings
+		\begin{enumerate}
+		   			\item[|-] OptionSettingvalue
+		   		\end{enumerate} 
+		\item[-] show\_email\_headings
+			\begin{enumerate}
+			   			\item[|-] OptionSettingvalue
+			   		\end{enumerate} 
+		\item[-] show\_telephone\_headings
+			\begin{enumerate}
+			   			\item[|-] OptionSettingvalue
+			   		\end{enumerate} 
+		\item[-] show\_mobile\_headings
+			\begin{enumerate}
+			   			\item[|-] OptionSettingvalue
+			   		\end{enumerate} 
+		\item[-] show\_fax\_headings
+			\begin{enumerate}
+			   			\item[|-] OptionSettingvalue
+			   		\end{enumerate} 
+		\item[-] show\_suburb\_headings
+			\begin{enumerate}
+			   			\item[|-] OptionSettingvalue
+			   		\end{enumerate} 
+		\item[-] show\_state\_headings
+			\begin{enumerate}
+			   			\item[|-] OptionSettingvalue
+			   		\end{enumerate} 
+		\item[-] show\_country\_headings
+			\begin{enumerate}
+			   			\item[|-] OptionSettingvalue
+			   		\end{enumerate} 
+		\item[-] show\_pagination
+			\begin{enumerate}
+			   			\item[|-] OptionSettingvalue
+			   		\end{enumerate} 
+		\item[-] show\_pagination\_results
+			\begin{enumerate}
+			   			\item[|-] OptionSettingvalue
+			   		\end{enumerate}
+	\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{List Layout Options}
+\end{minipage}
+
+\begin{minipage}{0.6\textwidth}
+\begin{longtable}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+ \begin{itemize}
+\item Display format
+	\begin{enumerate}
+	\item[|-] use Global | sliders
+	\item[|-] tabs | plain
+	\end{enumerate}
+\item Contact Category
+	\begin{enumerate}
+	\item[|-] use Global | hide
+	\item[|-] show without link | show with link
+	\end{enumerate} 
+\item show\_contact\_list
+	\begin{enumerate}
+		\item[|-] OptionSettingtype
+	\end{enumerate} 
+\item Name* 
+\item Contact's Position* 
+\item Email* 
+\item Street Address* 
+\end{itemize}
+ & 
+ \begin{itemize}
+\item presentation\_style
+\begin{enumerate}
+	\item[|-] leer | sliders
+	\item[|-] tabs | plain
+	\end{enumerate} 
+\item show\_contact\_category
+\begin{enumerate}
+	\item[|-]leer| hide
+	\item[|-]show\_without\_link| show\_with\_link
+	\end{enumerate} 
+\item show\_contact\_list
+\begin{enumerate}
+		\item[|-] OptionSettingtvalue
+	\end{enumerate} 
+\item show\_name* 
+\item show\_position* 
+\item show\_email* 
+\item show\_street\_address* 
+\end{itemize}
+\\
+\hline
+\end{longtable}
+\end{minipage}
+
+\begin{minipage}{0.6\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\begin{itemize}
+\item City or Suburb*
+\item State or County* 
+\item Postal Code* 
+\item Country*
+\item Telephone* 
+\item Mobile phone* 
+\item Fax*
+\item Webpage* 
+\item Misc. Information* 
+\item Image* 
+\item vCard* 
+\item Show User Articles* 
+\item Show Links* 
+\item Link A Label 
+\item Link B Label 
+\item Link C Label 
+\item Link D Label 
+\item Link E Label
+\end{itemize}
+ & 
+\begin{itemize}
+\item show\_suburb* 
+\item show\_state* 
+\item show\_postcode* 
+\item show\_country* 
+\item show\_telephone* 
+\item show\_mobile* 
+\item show\_fax* 
+\item show\_webpage* 
+\item show\_misc* 
+\item show\_image* 
+\item allow\_vcard* 
+\item show\_articles* 
+\item show\_links* 
+\item linka\_name 
+\item linkb\_name 
+\item linkc\_name 
+\item linkd\_name 
+\item linke\_name
+\end{itemize}
+\\ \hline
+\end{tabular}
+\captionof{table}{Contact Display Options}
+\end{minipage}
 
 
 \chapter{Anhang 2}
