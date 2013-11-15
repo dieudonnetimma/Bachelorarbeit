@@ -1296,7 +1296,7 @@ Wie schon bei den Articlepage, stellen wir schnell fest, dass es verschiedenen w
 \item show\_contact\_category
 \begin{enumerate}
 	\item[|-]leer| hide
-	\item[|-]show\_without\_link| show\_with\_link
+	\item[|-]show\_without\_link | show\_with\_link
 	\end{enumerate} 
 \item show\_contact\_list
 \begin{enumerate}
@@ -1361,6 +1361,991 @@ Wie schon bei den Articlepage, stellen wir schnell fest, dass es verschiedenen w
 \captionof{table}{Contact Display Options}
 \end{minipage}
 
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+ 1- List all Categories
+   \begin{itemize}
+     \item Basic  Setting 
+    		\begin{enumerate}
+    			\item[-] Select a Category
+    		\end{enumerate}
+    	\item Categories Options
+ 	   	\begin{enumerate}
+ 	    \item[+] Top Level Category Description
+ 	    \item[+] Contacts in Category 
+ 	    	  \begin{enumerate}
+ 	    			 \item[-] OptionSettingtype
+ 	    	\end{enumerate}
+ 	   \end{enumerate}
+    	\item Category Options
+    	\item[+] Contacts in Category 
+    		    	  \begin{enumerate}
+    		    			 \item[-] OptionSettingtype
+    		    	\end{enumerate}
+    	\item Contact List Layouts
+ 	\item Contact Display Options
+ 	\item Form for Email Options
+ 	\item Integration Options
+ 	\item Menuentry Options
+  \end{itemize}
+ & 
+1- List all Categories
+  \begin{itemize}
+    \item Basic  Setting 
+   		\begin{enumerate}
+   			\item[-] categorie\_id
+   		\end{enumerate}
+   	\item Categories Options
+	   	\begin{enumerate}
+	    \item[+] categories\_description
+	    \item[+] show\_cat\_items\_cat 
+	    	  \begin{enumerate}
+	    			 \item[-] OptionSettingtype
+	    	\end{enumerate}
+	   \end{enumerate}
+   	\item Category Options
+   	\item[+] show\_cat\_items
+   		    	  \begin{enumerate}
+   		    			 \item[-] OptionSettingtype
+   		    	\end{enumerate}
+   	\item Contact List Layouts
+	\item Contact Display Options
+	\item Form for Email Options
+	\item Integration Options
+	\item Menuentry Options
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Contact List All Category}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+ 1- List contact in a Category
+   \begin{itemize}
+     \item Basic  Setting 
+    		\begin{enumerate}
+    			\item[-] Select a Category
+    		\end{enumerate}
+    	\item Category Options
+    	\item[+] Contacts in Category 
+    		   \begin{enumerate}
+    		    	 \item[-] OptionSettingtype
+    		    \end{enumerate}
+    \item Contact List Layouts
+ 	\item Contact Display Options
+ 	\item Form for Email Options
+ 	\item Integration Options
+ 	\item Menuentry Options
+  \end{itemize}
+ & 
+1- List contact in a Category
+  \begin{itemize}
+    \item Basic  Setting 
+   		\begin{enumerate}
+   			\item[-] categorie\_id
+   		\end{enumerate}
+   	\item Category Options
+   	\item[+] show\_cat\_items
+   		    	  \begin{enumerate}
+   		    			 \item[-] OptionSettingtype
+   		    	\end{enumerate}
+   	\item Contact List Layouts
+	\item Contact Display Options
+	\item Form for Email Options
+	\item Integration Options
+	\item Menuentry Options
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{List contact in a Category}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+ 1- List contact in a Category
+   \begin{itemize}
+     \item Basic  Setting 
+    		\begin{enumerate}
+    			\item[-] Select a Contact
+    		\end{enumerate}
+ 	\item Contact Display Options
+ 	\item Form for Email Options
+ 	\item Menuentry Options
+  \end{itemize}
+ & 
+1- Single Contact
+  \begin{itemize}
+    \item Basic  Setting 
+   		\begin{enumerate}
+   			\item[-] contact\_id
+   		\end{enumerate}
+	\item Contact Display Options
+	\item Form for Email Options
+	\item Menuentry Options
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Single Contact}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+ 1- Featured Contact
+ \begin{itemize}
+    \item Contact List Layouts
+ 	\item Contact Display Options
+ 	\item Form for Email Options
+ 	\item Menuentry Options
+  \end{itemize}
+ & 
+1- Featured Contact
+ \begin{itemize}
+   	\item Contact List Layouts
+	\item Contact Display Options
+	\item Form for Email Options
+	\item Menuentry Options
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Featured Contact}
+\end{minipage}
+
+\textbf{Web Links }
+Wie schon bei anderen Pages bzw Menupunkt filtern wir erstmal  die wiederkehrenden Elementen aus dieser Menu-Categorie: Categories Options, Category Options, List Layout Options,und Menuentry Options.
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Display Select
+ \begin{enumerate}
+    \item[-] OptionSettingtype
+  \end{enumerate} 
+\item Table Headings
+ \begin{enumerate}
+    \item[-] OptionSettingtype
+  \end{enumerate} 
+\item Links description
+ \begin{enumerate}
+    \item[-] OptionSettingtype
+  \end{enumerate} 
+\item Hits
+ \begin{enumerate}
+    \item[-] OptionSettingtype
+  \end{enumerate}  
+\item Pagination
+ \begin{enumerate}
+    \item[-] OptionSettingtype
+  \end{enumerate}  
+\item Pagination Results
+ \begin{enumerate}
+    \item[-] OptionSettingtype
+  \end{enumerate}  
+\end{itemize} 
+ & 
+\begin{itemize}
+\item show\_pagination\_limit
+\begin{enumerate}
+    \item[-] OptionSettingvalue
+  \end{enumerate} 
+\item show\_headings
+\begin{enumerate}
+    \item[-] OptionSettingvalue
+  \end{enumerate} 
+\item show\_link\_description
+\begin{enumerate}
+    \item[-] OptionSettingvalue
+  \end{enumerate} 
+\item show\_link\_hits
+\begin{enumerate}
+    \item[-] OptionSettingvalue
+  \end{enumerate} 
+\item show\_pagination
+\begin{enumerate}
+    \item[-] OptionSettingvalue
+  \end{enumerate} 
+\item show\_pagination\_results
+\begin{enumerate}
+    \item[-] OptionSettingvalue
+  \end{enumerate} 
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Web Link List Layout}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+ 1- List All Web Link Categories
+   \begin{itemize}
+     \item Basic  Setting 
+    		\begin{enumerate}
+    			\item[-] Select a Category Level
+    		\end{enumerate}
+    	\item Categories Options
+ 	   	\begin{enumerate}
+ 	    \item[+] Top Level Category Description
+ 	    \item[+] Show /Hide the number of Web Links 
+ 	    	  \begin{enumerate}
+ 	    			 \item[-] OptionSettingtype
+ 	    	\end{enumerate}
+ 	   \end{enumerate}
+    	\item Category Options
+    	\item[+] Weblink in Category 
+    		    	  \begin{enumerate}
+    		    			 \item[-] OptionSettingtype
+    		    	\end{enumerate}
+    \item Weblink List Layouts
+ 	\item Menuentry Options
+  \end{itemize}
+ & 
+1- List All Web Link Categories
+  \begin{itemize}
+    \item Basic  Setting 
+   		\begin{enumerate}
+   			\item[-] categorie\_id
+   		\end{enumerate}
+   	\item Categories Options
+	   	\begin{enumerate}
+	    \item[+]categories\_description
+	    \item[+]show\_cat\_num\_ links\_ cat 
+	    	  \begin{enumerate}
+	    			 \item[-] OptionSettingtype
+	    	\end{enumerate}
+	   \end{enumerate}
+   	\item Category Options
+   	\item[+] show\_cat\_num\_links
+   		    	  \begin{enumerate}
+   		    			 \item[-] OptionSettingtype
+   		    	\end{enumerate}
+   	\item Weblinks List Layouts
+	\item Menuentry Options
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Weblinks List All Categories}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+ 1- List Web Link Category
+   \begin{itemize}
+     \item Basic  Setting 
+    		\begin{enumerate}
+    			\item[-] Select a Category 
+    		\end{enumerate}
+    	\item Category Options
+    	\item[+] Weblink in Category 
+    		    	  \begin{enumerate}
+    		    			 \item[-] OptionSettingtype
+    		    	\end{enumerate}
+    \item Weblink List Layouts
+    	\item Integration Options
+ 	\item Menuentry Options
+  \end{itemize}
+ & 
+1- List Web Link Category
+  \begin{itemize}
+    \item Basic  Setting 
+   		\begin{enumerate}
+   			\item[-] categorie\_id
+   		\end{enumerate}
+   	\item Category Options
+   	\item[+] show\_cat\_num\_links
+   		    	  \begin{enumerate}
+   		    			 \item[-] OptionSettingvalue
+   		    	\end{enumerate}
+   	\item Weblinks List Layouts
+   	\item Integration Options
+	\item Menuentry Options
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{List Web Link Category}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+ 1- Submit a Web Link
+ \begin{itemize}
+ 	\item Menuentry Options
+  \end{itemize}
+ & 
+1- Submit a Web Link
+ \begin{itemize}
+	\item Menuentry Options
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Submit a Web Link}
+\end{minipage}
+
+\textbf{News Feed}
+
+News Feed \{to do\} die wiederkehrende Elemente sind:
+
+\begin{minipage}{0.63\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Display Select
+\begin{enumerate}
+    \item[-] OptionSettingtype
+ \end{enumerate} 
+\item Table Headings
+\begin{enumerate}
+    \item[-] OptionSettingtype
+ \end{enumerate} 
+\item  Articles
+\begin{enumerate}
+    \item[-] OptionSettingtype
+ \end{enumerate} 
+\item Feed Links
+\begin{enumerate}
+    \item[-] OptionSettingtype
+ \end{enumerate} 
+\item Pagination
+\begin{enumerate}
+    \item[-] OptionSettingtype
+ \end{enumerate} 
+\item Pagination Results
+\begin{enumerate}
+    \item[-] OptionSettingtype
+ \end{enumerate} 
+\end{itemize}
+ & 
+\begin{itemize}
+\item show\_pagination\_limit
+ \begin{enumerate}
+    \item[-] OptionSettingvalue
+ \end{enumerate} 
+\item show\_headings
+ \begin{enumerate}
+    \item[-] OptionSettingvalue
+ \end{enumerate} 
+\item show\_articles
+ \begin{enumerate}
+    \item[-] OptionSettingvalue
+ \end{enumerate}  
+\item show\_link
+ \begin{enumerate}
+    \item[-] OptionSettingvalue
+ \end{enumerate} 
+\item show\_pagination
+ \begin{enumerate}
+    \item[-] OptionSettingvalue
+ \end{enumerate}  
+\item show\_pagination\_results 
+\begin{enumerate}
+    \item[-] OptionSettingvalue
+ \end{enumerate}  
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{News Feeds List Layouts}
+\end{minipage}
+
+\begin{minipage}{0.63\textwidth}
+\begin{tabular}{|p{0.55\textwidth} | p{0.57\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Feed Image
+\begin{enumerate}
+    \item[-] OptionSettingtype
+ \end{enumerate}  
+\item Feed Description
+\begin{enumerate}
+    \item[-] OptionSettingtype
+ \end{enumerate}  
+\item Feed Content
+\begin{enumerate}
+    \item[-] OptionSettingtype
+ \end{enumerate}  
+\item Characters count 
+ \end{itemize}
+ &
+ \begin{itemize}
+\item show\_feed\_image
+\begin{enumerate}
+    \item[-] OptionSettingvalue
+ \end{enumerate} 
+\item show\_feed\_description
+\begin{enumerate}
+    \item[-] OptionSettingvalue
+ \end{enumerate}  
+\item show\_item\_description
+\begin{enumerate}
+    \item[-] OptionSettingvalue
+ \end{enumerate}  
+\item feed\_character\_count 
+ \end{itemize} 
+\\
+\hline
+\end{tabular}
+\captionof{table}{Feed Display Options}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+ 1-List All News Feeds Categories
+   \begin{itemize}
+     \item Basic  Setting 
+    		\begin{enumerate}
+    			\item[-] Select a Category Level
+    		\end{enumerate}
+    	\item Categories Options
+ 	   	\begin{enumerate}
+ 	    \item[+] Top Level Category Description
+ 	    \item[+] Show /Hide the number of News Feeds 
+ 	    	  \begin{enumerate}
+ 	    			 \item[-] OptionSettingtype
+ 	    	\end{enumerate}
+ 	   \end{enumerate}
+    	\item Category Options
+    	\item[+] Feeds in Category 
+    		    	  \begin{enumerate}
+    		    			 \item[-] OptionSettingtype
+    		    	\end{enumerate}
+    \item News Feeds List Layouts
+    \item Feed Display Options
+ 	\item Menuentry Options
+  \end{itemize}
+ & 
+1- List All News Feeds Categories
+  \begin{itemize}
+    \item Basic  Setting 
+   		\begin{enumerate}
+   			\item[-] categorie\_id
+   		\end{enumerate}
+   	\item Categories Options
+	   	\begin{enumerate}
+	    \item[+]categories\_description
+	    \item[+]show\_cat\_items\_cat 
+	    	  \begin{enumerate}
+	    			 \item[-] OptionSettingtype
+	    	\end{enumerate}
+	   \end{enumerate}
+   	\item Category Options
+   	\item[+] show\_cat\_items
+   		    	  \begin{enumerate}
+   		    			 \item[-] OptionSettingtype
+   		    	\end{enumerate}
+   	\item Weblinks List Layouts
+   	\item News Feeds List Layouts
+   	\item Feed Display Options
+	\item Menuentry Options
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{List All News Feeds Categories}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+ 1-List news Feeds in a Category
+   \begin{itemize}
+     \item Basic  Setting 
+    		\begin{enumerate}
+    			\item[-] Select a Category 
+    		\end{enumerate}
+    	\item Category Options
+    	\item[+] Feeds in Category 
+    		    	  \begin{enumerate}
+    		    			 \item[-] OptionSettingtype
+    		    	\end{enumerate}
+    \item News Feeds List Layouts
+    \item Feed Display Options
+    \item[+] Feed display order
+           	\begin{enumerate}
+           		\item[-] Use Global
+           		\item[-] Most recent first
+           		\item[-] Oldest first
+           	\end{enumerate}	
+ 	\item Menuentry Options
+  \end{itemize}
+ & 
+1- List news Feeds in a Category
+  \begin{itemize}
+    \item Basic  Setting 
+   		\begin{enumerate}
+   			\item[-] categorie\_id
+   		\end{enumerate}
+   	\item Category Options
+   	\item[+] show\_cat\_items
+		\begin{enumerate}
+ 			 \item[-] OptionSettingvalue
+	    	\end{enumerate}
+   	\item News Feeds List Layouts
+   	\item Feed Display Options
+   	\item[+] feed\_display\_order
+   	   	\begin{enumerate}
+   	   		\item[-] leer
+   	   		\item[-] desc
+   	   		\item[-] asc
+   	   	\end{enumerate}	
+	\item Menuentry Options
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{List news Feeds in a Category}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+ 1-List news Feeds in a Category
+   \begin{itemize}
+     \item Basic  Setting 
+    		\begin{enumerate}
+    			\item[-] Select a Feed
+    		\end{enumerate}  
+    \item Feed Display Options
+    \item[+] Feed display order
+           	\begin{enumerate}
+           		\item[-] Use Global
+           		\item[-] Most recent first
+           		\item[-] Oldest first
+           	\end{enumerate}	
+ 	\item Menuentry Options
+  \end{itemize}
+ & 
+1- List news Feeds in a Category
+  \begin{itemize}
+    \item Basic  Setting 
+   		\begin{enumerate}
+   			\item[-] feed\_id
+   		\end{enumerate}
+   	\item Feed Display Options
+   		\item[+] feed\_display\_order
+   	   	\begin{enumerate}
+   	   		\item[-] leer
+   	   		\item[-] desc
+   	   		\item[-] asc
+   	   	\end{enumerate}	
+	\item Menuentry Options
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Single News Feed}
+\end{minipage}
+
+\textbf{Smart Search}
+
+diese Page ist \{to do\}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Search Query
+\item Search Filter
+ \begin{enumerate}
+ \item[-]  Search Filter
+ \end{enumerate}
+\item Date Filters
+\begin{enumerate}
+ 	\item[-] OptionSettingtype
+ \end{enumerate} 
+\item Advanced Search
+\begin{enumerate}
+ 	\item[-] OptionSettingtype
+ \end{enumerate} 
+\item Expand Advanced Search
+\begin{enumerate}
+ 	\item[-] OptionSettingtype
+ \end{enumerate} 
+\item Result Description
+\begin{enumerate}
+ 	\item[-] OptionSettingtype
+ \end{enumerate} 
+\item Description Length 
+\item Result URL
+\begin{enumerate}
+ 	\item[-] OptionSettingtype
+ \end{enumerate}
+\item Display Select
+\begin{enumerate}
+ 	\item[-] OptionSettingvalue
+ \end{enumerate} 
+\end{itemize}
+
+ & 
+\begin{itemize}
+\item q
+\item f
+ \begin{enumerate}
+ \item[-] filter\_id
+ \end{enumerate}
+\item show\_date\_filters
+\begin{enumerate}
+ 	\item[-] OptionSettingvalue
+ \end{enumerate} 
+\item show\_advanced
+\begin{enumerate}
+ 	\item[-] OptionSettingvalue
+ \end{enumerate} 
+\item expand\_advanced
+\begin{enumerate}
+ 	\item[-] OptionSettingvalue
+ \end{enumerate} 
+\item show\_description
+\begin{enumerate}
+ 	\item[-] OptionSettingvalue
+ \end{enumerate} 
+\item description\_length 
+\item show\_url
+\begin{enumerate}
+ 	\item[-] OptionSettingvalue
+ \end{enumerate}
+\item show\_pagination\_limit
+\begin{enumerate}
+ 	\item[-] OptionSettingvalue
+ \end{enumerate} 
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{MaxlevelSettingtype}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Pagination
+\begin{enumerate}
+ 	\item[-] OptionSettingvalue
+ \end{enumerate}
+\item Pagination Results
+\begin{enumerate}
+ 	\item[-] OptionSettingvalue
+ \end{enumerate} 
+\item Allow Empty Search
+\begin{enumerate}
+ 	\item[-] No
+ 	\item[-] yes 
+ \end{enumerate} 
+\item Sort Field
+\begin{enumerate}
+ 	\item[-] Use Global
+ 	\item[-] relevance
+ 	\item[-] date
+ 	\item[-] price
+ \end{enumerate} 
+\item Sort Direction
+\begin{enumerate}
+ 	\item[-] Use Global
+ 	\item[-] descending
+ 	\item[-] ascending
+ \end{enumerate} 
+\item show\_feed
+\begin{enumerate}
+ 	\item[-] No
+ 	\item[-] Yes
+ \end{enumerate} 
+\item Show Feed
+\begin{enumerate}
+ 	\item[-] No
+ 	\item[-] Yes
+ \end{enumerate} 
+\item Show Feed Text 
+\item Menuentry Options
+\end{itemize}
+ & 
+\begin{itemize}
+\item show\_pagination
+\begin{enumerate}
+ 	\item[-] OptionSettingvalue
+ \end{enumerate}
+\item show\_pagination\_results
+\begin{enumerate}
+ 	\item[-] OptionSettingvalue
+ \end{enumerate} 
+\item allow\_empty\_query
+\begin{enumerate}
+ 	\item[-] 0
+ 	\item[-] 1
+ \end{enumerate} 
+\item sort\_order
+\begin{enumerate}
+ 	\item[-] leer
+ 	\item[-] relevance
+ 	\item[-] date
+ 	\item[-] price
+ \end{enumerate} 
+\item sort\_direction
+\begin{enumerate}
+ 	\item[-] leer
+ 	\item[-] desc
+ 	\item[-] asc
+ \end{enumerate} 
+\item show\_feed
+\begin{enumerate}
+ 	\item[-] 0
+ 	\item[-] 1
+ \end{enumerate} 
+\item show\_feed\_text
+\begin{enumerate}
+ 	\item[-] 0
+ 	\item[-] 1
+ \end{enumerate} 
+\item show\_feed\_link 
+\item Menuentry Options
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Search}
+\end{minipage}
+
+\textbf{Search}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+ \item Search Term 
+ \item Use Search Areas
+ \begin{enumerate}
+  	\item[-] OptionSettingtype
+  \end{enumerate} 
+ \item Created Date
+ \begin{enumerate}
+  	\item[-] OptionSettingtype
+  \end{enumerate}
+ \item Search for
+ \begin{enumerate}
+  	\item[-] All Words
+  	\item[-] Any Words
+  	\item[-] Exact Phrase
+  \end{enumerate} 
+ \item Results ordering
+ \begin{enumerate}
+  	\item[-] Newest First
+  	\item[-] Oldest First
+  	\item[-] Popularity
+  	\item[-] Alphabetical
+  	\item[-] Category
+  \end{enumerate} 
+  \item Menuentry Options
+ \end{itemize}
+
+ & 
+ \begin{itemize}
+ \item searchword
+ \item search\_areas
+ \begin{enumerate}
+  	\item[-] OptionSettingvalue
+  \end{enumerate} 
+ \item show\_date
+ \begin{enumerate}
+  	\item[-] OptionSettingvalue
+  \end{enumerate}
+ \item searchphrase
+ \begin{enumerate}
+  	\item[-] 0
+  	\item[-] 1
+  	\item[-] 2
+  \end{enumerate} 
+ \item ordering
+ \begin{enumerate}
+  	\item[-] newest
+  	\item[-] oldest
+  	\item[-] popular
+  	\item[-] alpha
+  	\item[-] category
+  \end{enumerate} 
+  \item Menuentry Options
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Search}
+\end{minipage}
+
+\textbf{Iframe Wrapper}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item URL 
+\item Scroll Bars
+\begin{enumerate}
+	\item[-] no
+	\item[-] yes
+	\item[-] auto
+\end{enumerate} 
+\item Width 
+\item Height 
+\item Auto height
+\begin{enumerate}
+	\item[-] YesNoSettingtype
+\end{enumerate} 
+\item Auto add
+\begin{enumerate}
+	\item[-] YesNoSettingtype
+\end{enumerate}
+\item Frame border
+\begin{enumerate}
+	\item[-] YesNoSettingtype
+\end{enumerate}
+\item Menuentry Options
+\end{itemize}
+ & 
+\begin{itemize}
+\item url 
+\item scrolling
+\begin{enumerate}
+	\item[-] no
+	\item[-] yes
+	\item[-] auto
+\end{enumerate} 
+\item width 
+\item height 
+\item height\_auto
+\begin{enumerate}
+	\item[-] YesNoSettingvalue
+\end{enumerate} 
+\item add\_scheme
+\begin{enumerate}
+	\item[-] YesNoSettingvalue
+\end{enumerate}
+\item frameborder
+\begin{enumerate}
+	\item[-] YesNoSettingvalue
+\end{enumerate}
+\item Menuentry Options
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Iframe Wrapper}
+\end{minipage}
+
+\textbf{External URL}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+1-External URL
+ \begin{itemize}
+ \item Link Type Options
+ \end{itemize}
+ & 
+1-External URL
+\begin{itemize}
+ \item Link Type Options
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{External URL}
+\end{minipage}
+
+\textbf{Menu Item Alias}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+
+ \begin{itemize}
+ \item Select a Menu Item
+ \item Link Type Options
+ \end{itemize}
+ & 
+
+\begin{itemize}
+\item itemid
+ \item Link Type Options
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Menu Item Alias}
+\end{minipage}
+
+\textbf{System Link-Text Separator}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+
+ \begin{itemize}
+ \item Link Type Options
+ \end{itemize}
+ & 
+
+\begin{itemize}
+ \item Link Type Options
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{System Link-Text Separator}
+\end{minipage}
 
 \chapter{Anhang 2}
 
