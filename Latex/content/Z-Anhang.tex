@@ -7,7 +7,7 @@ In der Untersuchung von MenuItems in Joomla stellen wir fest, dass es verschiede
 \linebreak
 \linebreak
 \begin{minipage}{0.5\textwidth}
-\begin{tabular}{|p{0.6\textwidth}|p{0.6\textwidth} |}
+\begin{tabular}{|p{0.7\textwidth}|p{0.7\textwidth} |}
 \hline
 \textbf{CJSL} 
 &  
@@ -1149,8 +1149,8 @@ Wie schon bei den Articlepage, stellen wir schnell fest, dass es verschiedenen w
 \end{minipage}
 
 
-\begin{minipage}{0.6\textwidth}
-\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.7\textwidth}|}
 \hline
 \textbf{CSL} & \textbf{Joomla} \\ 
 \hline
@@ -2055,7 +2055,7 @@ diese Page ist \{to do\}
 \\
 \hline
 \end{tabular}
-\captionof{table}{MaxlevelSettingtype}
+\captionof{table}{Search}
 \end{minipage}
 
 \begin{minipage}{0.7\textwidth}
@@ -2347,5 +2347,1058 @@ diese Page ist \{to do\}
 \captionof{table}{System Link-Text Separator}
 \end{minipage}
 
+\chapter{Content}
+Zuerst ein Paar wiederkehrende Elemente:
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.7\textwidth} | p{0.3\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Use Global:String
+\item Open in parent window:Int
+\item Open in new window:Int
+\item Open in popup:Int
+\item Modal:Int 
+\end{itemize}
+ & 
+\begin{itemize}
+\item leer 
+\item "0"
+\item "1"
+\item "2"
+\item "3"
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{contenopenWindowtype}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.7\textwidth} | p{0.7\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+ \item Meta keywords :String 
+ \item Meta description :String
+ \item Robots :robotsOptionType 
+ \item Author :String 
+ \item Rights :String 
+\end{itemize}
+ & 
+\begin{itemize}
+\item metakey 
+\item metadesc 
+\item robots :robotsOptionValue 
+\item author 
+\item rights 
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{contentMetaOption}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item right :String
+\item left :String
+\item none :String
+\end{itemize}
+ & 
+\begin{itemize}
+\item right
+\item left
+\item none
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{PositionOptionType}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.7\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Link A :String 
+\item Link A Text :String 
+\item URL Target Window for Link A :openWindowOptionType
+\item Link B :String 
+\item Link B Text :String 
+\item URL Target Window for Link B :openWindowOptionType
+\item Link C :String 
+\item Link C Text :String 
+\item URL Target Window for Link C :String 
+\end{itemize}
+ & 
+\begin{itemize}
+\item urla 
+\item urlatext 
+\item targeta :openWindowOptionType
+\item urlb 
+\item urlbtext 
+\item targetb :openWindowOptionType
+\item urlc 
+\item urlctext 
+\item targetc :openWindowOptionType
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{UrlSettingOption}
+\end{minipage}
+
+\begin{minipage}{0.78\textwidth}
+\begin{tabular}{|p{0.7\textwidth} | p{0.7\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item ArticleSettingOption
+\item Positioning of the Links :String
+\item Read More Text :String
+\item Alternative Layout :String
+\item Show publishing options :YesNoType
+\item Show article options :YesNoType
+\item Show urls images backend :YesNoType
+\item Show urls images frontend :YesNoType
+\item intro Image :String
+\item Image Float :PositionOptiontype
+\item Alt text :String
+\item Caption :String
+\end{itemize}
+ & 
+\begin{itemize}
+\item ArticleSettingOption 
+\item urls\_position 
+\item alternative\_readmore 
+\item article\_layout
+\item show\_publishing\_options :YesNoType
+\item show\_article\_options :YesNoType
+\item show\_urls\_images\_backend :YesNoType	 
+\item show\_urls\_images\_frontend :YesNoType
+\item image\_intro 
+\item float\_intro :PositionOptiontype
+\item image\_intro\_alt 
+\item image\_intro\_caption 
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{ContentAttributOption}
+\end{minipage}
+
+\begin{minipage}{0.65\textwidth}
+\begin{tabular}{|p{0.65\textwidth} | p{0.65\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Full article image :String
+\item Full article image Float :PositionOptiontype
+\item Full article  Alt text :String
+\item Full article Caption :String
+\end{itemize}
+ & 
+ \begin{itemize}
+\item image\_fulltext 
+\item float\_fulltext :PositionOptiontype
+\item image\_fulltext\_alt 
+\item image\_fulltext\_caption
+ \end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{ContentImageOption}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Content Id :Content
+\item Rating Sum :int
+\item Rating Count :int
+\item Lastip
+\end{itemize}
+ & 
+\begin{itemize}
+\item content\_id
+\item rating\_sum
+\item rating\_count
+\item lastip
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{RatingOption}
+\end{minipage}
+
+\textbf{Content}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Id :int
+\item ACL :AccessLevel
+\item Title :String
+\item Alias :String
+\item ...
+\item Article Text :String
+\item Article Text :String
+\item Status :contentStatusType
+\item sectionid :int
+ \item mask :String
+\item Categorie :Category
+\item Created Date :Date
+\item Created By :User
+\item Created by alias :String
+\item Modified Date :Date
+\item Modified by :User
+
+\end{itemize}
+ & 
+ \begin{itemize}
+\item id 
+ \item asset\_id 
+ \item title 
+ \item alias 
+ \item title\_alias 
+ \item introtext 
+ \item fulltext 
+ \item state 
+ \item sectionid 
+ \item mask 
+ \item catid 
+ \item created 
+ \item created\_by 
+ \item created\_by\_alias 
+ \item modified 
+ \item modified\_by 
+ 
+ \end{itemize} 
+\\
+\hline
+\end{tabular}
+\captionof{table}{Content}
+\end{minipage}
+
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.7\textwidth} | p{0.7\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+ \begin{itemize}
+ \item checked\_out :int
+  \item checked\_out\_time  :Date
+ \item Start Publishing :Date
+ \item Finish Publishing :Date
+ \item ContenImagesOption
+\item UrlsOption
+\item ContentAttribsOption
+\item version :String
+ \item parentid :int
+\item Ordering :int
+\item Access :ViewLevel
+\item hits :int
+\item ContentMetadataOption
+\item Featrured :Content
+\item Language :Language
+\item Extern Ressource Description :String
+\item RatingsOption
+ \end{itemize}
+ & 
+\begin{itemize}
+\item checked\_out 
+  \item checked\_out\_time 
+  \item publish\_up 
+  \item publish\_down 
+  \item ContentImagesOption
+ \item UrlsOption
+ \item ContentAttribsOption
+ \item version 
+ \item parentid 
+ \item ordering 
+ \item access 
+ \item hits 
+ \item ContentMetadataOption 
+ \item featured 
+ \item language 
+ \item xreference
+ \item BewertungsOption
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Content}
+\end{minipage}
+
+\textbf{Categorie}
+Bei den Kategorien, wie bei Menu sie unterscheiden sich nur durch die Zusatzparameter, die Erweiterungen Abhängig sind. Wir unterscheiden für die Jommlacore die folgende Paramtertype:
+\begin{itemize}
+\item ArticleCategorie
+\item BannerCategeorie
+\item ContactCategorie
+\item NewsFeedsCategorie
+\item Weblinkcategorie 
+\end{itemize}
+ Hier sind zuerst die Wiederkherende Elemente:
+ 
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item ...
+\item ...
+\item Parent
+\item Ordering
+\item ...
+\item ...
+\item ...
+\item  ExtensionOptions
+\item  Title
+\item  Alias
+\item  Note
+\item  Description
+\item  Published
+\item  ...
+\item  ...
+\item  Access
+\item  CategorieParamsOption
+\item  MetadataOptionType
+\item  Created by
+\item  Created Time
+\item  Modified By
+\item  Modified Date
+\item  Hits
+\item  Language
+\end{itemize}
+ & 
+\begin{itemize}
+\item id
+\item asset\_id
+\item parent\_id
+\item lft
+\item rgt
+\item level
+\item path
+\item  extensionOptions
+\item  title
+\item  alias
+\item  note
+\item  description
+\item  published
+\item  checked\_out
+\item  checked\_out\_time
+\item  access
+\item  CategorieParamsOption
+\item  MetadataOptionValue
+\item  created\_user\_id
+\item  created\_time
+\item  modified\_user\_id
+\item  modified\_time
+\item  hits
+\item  language
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Categorie}
+\end{minipage}
+
+Wir unterscheiden verschiedene ParameterType:
+
+\begin{minipage}{0.5\textwidth}
+\begin{tabular}{|p{0.5\textwidth} | p{0.5\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Alternative Layout
+    \begin{enumerate}
+		\item[-] Use Global
+		\item[-] Blog 
+		\item[-] List
+	\end{enumerate}
+\item Image
+\end{itemize}
+ & 
+\begin{itemize}
+\item category\_layout
+    \begin{enumerate}
+		\item[-] ...
+		\item[-] \_:blog
+		\item[-] \_:default
+	\end{enumerate}
+\item image
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{ArticleCategorie}
+\end{minipage}
+
+\begin{minipage}{0.6\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Alternative Layout
+    \begin{enumerate}
+		\item[-] Use Global
+	\end{enumerate}
+\item Image
+\end{itemize}
+ & 
+\begin{itemize}
+\item category\_layout
+    \begin{enumerate}
+		\item[-] ...
+	\end{enumerate}
+\item image
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{BannersCategorie}
+\end{minipage}
+
+\begin{minipage}{0.5\textwidth}
+\begin{tabular}{|p{0.5\textwidth} | p{0.5\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Alternative Layout
+    \begin{enumerate}
+		\item[-] Use Global
+		\item[-] Default 
+	\end{enumerate}
+\item Image
+\end{itemize}
+ & 
+\begin{itemize}
+\item category\_layout
+    \begin{enumerate}
+		\item[-] ...
+		\item[-] \_:default
+	\end{enumerate}
+\item image
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Weblink/NewsFeeds/Contact/UserCategories}
+\end{minipage}
+
+\textbf{NewsFeeds Beschreibung}
+
+Hier Kommen wir zu den NewsFeeds:
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Category
+ \item  id
+ \item  Title
+ \item  Alias
+ \item  Link
+ \item  ...
+ \item  statusType
+ \item  Number of Articles
+ \item  Cache Time
+ \item  ...
+ \item  ...
+ \item  Ordering
+ \item  Language Direction
+ \item  Access
+ \item  language
+ 
+\end{itemize}
+ & 
+\begin{itemize}
+ \item catid
+ \item  id
+ \item  name
+ \item  alias
+ \item  link
+ \item  filename
+ \item  published
+ \item  numarticles
+ \item  cache\_time
+ \item  checked\_out
+ \item  checked\_out\_time
+ \item  ordering
+ \item  rtl
+ \item  access
+ \item  language
+ 
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{NeewFeeds}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Feed Display Options
+     \item[+] Feed display order
+            	\begin{enumerate}
+            		\item[-] Use Global
+            		\item[-] Most recent first
+            		\item[-] Oldest first
+            	\end{enumerate}	
+      \item[+] newsfeed\_layout
+      	\begin{enumerate}
+           		\item[-] Use Global
+           		\item[-] Default
+           	\end{enumerate}
+ \item  Created Date
+ \item  Created by
+ \item  Author's Alias
+ \item  Modified Date
+ \item  Modified By
+ \item  MetadataOption
+ \item  ...
+ \item  Start Publishing
+ \item  Finish Publishing
+\end{itemize}
+ & 
+\begin{itemize}
+\item Feed Display Options
+		\item[+] feed\_display\_order
+	   	\begin{enumerate}
+	   		\item[-] leer
+	   		\item[-] desc
+	   		\item[-] asc
+	   	\end{enumerate}
+        \item[+] newsfeed\_layout
+         	\begin{enumerate}
+          		\item[-] ...
+          		\item[-] \_:default
+             \end{enumerate}
+ \item  created
+ \item  created\_by
+ \item  created\_by\_alias
+ \item  modified
+ \item  modified\_by
+ \item  MetadataOption
+ \item  xreference
+ \item  publish\_up
+ \item  publish\_down
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{NeewFeeds}
+\end{minipage}
+
+
+\textbf{Contact Details}
+Contact stellt eine Erweiterung für User Information dar.
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item  Position
+\item  Address
+\item  City or Suburb
+\item  State or Province
+\item  Country
+\item  Postal / ZIP Code
+\item  Telephone
+\item  Fax
+\item  Image
+\item  ...
+\item  Email
+\item  ...
+\item  Mobile
+\item  Webpage
+\item  First Sort Field
+\item  Second Sort Field
+\item  Third Sort Field
+\end{itemize}
+ & 
+\begin{itemize}
+\item  con\_position
+\item  address
+\item  suburb
+\item  state
+\item  country
+\item  postcode
+\item  telephone
+\item  fax
+\item  image
+\item  imagepos?
+\item  email\_to
+\item  default\_con?
+\item  mobile
+\item  webpage
+\item  sortname1
+\item  sortname2
+\item  sortname3
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Contacts Details Options}
+\end{minipage}
+
+Die Contact beschreibung:
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item ...
+\item  Name
+\item  Alias
+\item  Other Information
+\item  Status
+\item  ...
+\item  ...
+\item  Ordering
+\item  language
+\item  Created date
+\item  Created By
+\item  Created By Alias
+\item  Modified
+\item  Modified by
+\item  metadataOption
+\item  Featured
+\item  ...
+\item  Start Publishing
+\item  Finish Publishing
+\item  Linked User
+\item  Category
+\item  Access
+\item  Form for Email Options
+\item  List Layout Options
+\item Contacts Details Options
+\end{itemize}
+ & 
+\begin{itemize}
+\item id
+\item  name
+\item  alias
+\item   misc
+\item  published
+\item  checked\_out
+\item  checked\_out\_time
+\item  ordering
+\item  language
+\item  created
+\item  created\_by
+\item  created\_by\_alias
+\item  modified
+\item  modified\_by
+\item  metadataOption
+\item  featured
+\item  xreference?
+\item  publish\_up
+\item  publish\_down
+\item  user\_id
+\item  catid
+\item  access
+\item  Form for Email Options
+\item  List Layout Options
+\item Contacts Details Options
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Contact}
+\end{minipage}
+
+
+\textbf{WebLinks}
+
+WebLinks Beschreibung:
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Target
+	   \begin{enumerate}
+	     \item[-] openWindowOption
+	   \end{enumerate}
+\item Width
+	\begin{enumerate}
+		\item[-] openWindowOption
+	  \end{enumerate}
+\item Height
+	\begin{enumerate}
+		\item[-] openWindowOption
+	   \end{enumerate}
+\item Count Clicks
+	\begin{enumerate}
+		\item[-] openWindowOption
+	   \end{enumerate}
+\end{itemize}
+ & 
+\begin{itemize}
+\item target
+		\begin{enumerate}
+			\item[-] openWindowOption
+	   \end{enumerate}
+\item width
+		\begin{enumerate}
+			\item[-] openWindowOption
+	   \end{enumerate}
+\item height
+		\begin{enumerate}
+			\item[-] openWindowOption
+	   \end{enumerate}
+\item count\_clicks
+		\begin{enumerate}
+			\item[-] openWindowOption
+	   \end{enumerate}
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{WebLinkParamsOptions}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item ...
+\item   Category
+\item   sid
+\item   Title
+\item   Alias
+\item   Url
+\item   Description
+\item   date
+\item   hits
+\item   Status
+\item   checked\_out
+\item   checked\_out\_time
+\item   Ordering
+\item   archived
+\item   approved
+\item   Access
+\item   WebLinkParamsOptions
+\item   Language
+\item   Created Date
+\item   Created By
+\item   Created by alias
+\item   modified
+\item   modified By
+\item   MetadataOption
+\item   Featured
+\item   xreference
+\item   Start Publishing
+\item   Finish Publishing
+\end{itemize}
+ & 
+\begin{itemize}
+\item id
+\item   catid
+\item   sid
+\item   title
+\item   alias
+\item   url
+\item   description
+\item   date
+\item   hits
+\item   state
+\item   checked\_out
+\item   checked\_out\_time
+\item   ordering
+\item   archived
+\item   approved
+\item   access
+\item   WebLinkParamsOptions
+\item   language
+\item   created
+\item   created\_by
+\item   created\_by\_alias
+\item   modified
+\item   modified\_by
+\item   metadataOption
+\item   featured
+\item   xreference
+\item   publish\_up
+\item   publish\_down 
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Weblink}
+\end{minipage}
+
+\textbf{Banner}
+Zuerst ein Paar Elemente:
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Image
+\item Width
+\item Height
+\item alt
+\end{itemize}
+ & 
+\begin{itemize}
+\item imageurl
+\item width
+\item height
+\item alt
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{BannerParamsOption}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Use Client Default 
+\item Unlimited
+\item Yearly
+\item Monthly
+\item Weekly
+\item Daily
+\end{itemize}
+ & 
+\begin{itemize}
+\item -1
+\item 1
+\item 2
+\item 3
+\item 4
+\item 5
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{purchaseTypeOption}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item  Meta keyword
+\item  Use Own Prefix  -> YesNoOptiontype
+\item  Meta keyword Prefix
+\end{itemize}
+ & 
+\begin{itemize}
+\item  metakey
+\item  own\_prefix
+\item  metakey\_prefix
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{BannerMetadaOption}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.7\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item  ...
+\item  Client
+\item  Type
+	\begin{enumerate}
+      \item[-] Image
+	  \item[-] Custom
+	\end{enumerate}
+\item  Name
+\item  Alias
+\item  Max. Impressions
+\item  Total Impressions
+\item  Clicks
+\item  Click Url
+\item  State
+\item  Categorie
+\item  Description
+\item  custombannercode
+\item  Sticky-> YesNoOptiontype
+\item  Ordering
+\item  BannerParamsOption
+\end{itemize}
+ & 
+\begin{itemize}
+\item  id
+\item  cid
+\item  type
+	\begin{enumerate}
+      \item[-] 0
+	  \item[-] 1
+	\end{enumerate}
+\item  name
+\item  alias
+\item  imptotal
+\item  impmade
+\item  clicks
+\item  clickurl
+\item  state
+\item  catid
+\item  description
+\item  custombannercode
+\item  sticky
+\item  ordering
+\item  BannerParamsOption
+
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{BannerItem}
+\end{minipage}
+
+\begin{minipage}{0.8\textwidth}
+\begin{tabular}{|p{0.7\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item BannerMetadaOption
+\item  Purchase Type -> purchaseTypeOption
+\item  Track Clicks -> YesNoOptiontype
+\item  track\_impressions
+\item  checked\_out
+\item  checked\_out\_time
+\item  Start Publishing
+\item  Finish Publishing
+\item  Reset
+\item  Created Date
+\item  Language
+\end{itemize}
+ & 
+\begin{itemize}
+\item BannerMetadaOption
+\item  purchase\_type
+\item  track\_clicks
+\item  track\_impressions
+\item  checked\_out
+\item  checked\_out\_time
+\item  publish\_up
+\item  publish\_down
+\item  reset
+\item  created
+\item  language
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Banneritem}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item ...
+\item  Client Name
+\item  Contact Name
+\item  Contact Email
+\item  Additional Information
+\item  Status
+\item  checked\_out
+\item  checked\_out\_time
+\item  Purchase Type
+\item  Track Clicks
+\item  Track Impressions
+\item BannerMetadaOption
+\end{itemize}
+ & 
+\begin{itemize}
+\item id
+\item  name
+\item  contact
+\item  email
+\item  extrainfo
+\item  state
+\item  checked\_out
+\item  checked\_out\_time
+\item  purchase\_type
+\item  track\_clicks
+\item  track\_impressions
+\item BannerMetadaOption
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Banner Client}
+\end{minipage}
+
+\begin{minipage}{0.7\textwidth}
+\begin{tabular}{|p{0.6\textwidth} | p{0.6\textwidth}|}
+\hline
+\textbf{CSL} & \textbf{Joomla} \\ 
+\hline
+\begin{itemize}
+\item Track date
+\item Track type
+\item Banner id
+\end{itemize}
+ & 
+\begin{itemize}
+\item track\_date
+\item track\_type
+\item banner\_id
+\end{itemize}
+\\
+\hline
+\end{tabular}
+\captionof{table}{Banner Tracks}
+\end{minipage}
 \chapter{Anhang 2}
 
