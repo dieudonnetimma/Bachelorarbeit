@@ -1,25 +1,25 @@
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einf\IeC {\"u}hrung}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}Problembeschreibung}{4}{section.1.2}
-\contentsline {section}{\numberline {1.3}Ziele dieser Arbeit}{4}{section.1.3}
-\contentsline {section}{\numberline {1.4}Abgrenzung}{4}{section.1.4}
-\contentsline {section}{\numberline {1.5}Vorgehensweise}{4}{section.1.5}
-\contentsline {section}{\numberline {1.6}Struktur der Arbeit}{4}{section.1.6}
-\contentsline {chapter}{\numberline {2}Hintergrund}{5}{chapter.2}
-\contentsline {chapter}{\numberline {3}Konzept}{7}{chapter.3}
-\contentsline {chapter}{\numberline {4}Realisierung}{9}{chapter.4}
-\contentsline {chapter}{\numberline {5}Zusammenfassung}{11}{chapter.5}
-\contentsline {section}{\numberline {5.1}Fazit}{11}{section.5.1}
-\contentsline {section}{\numberline {5.2}Auswertung}{11}{section.5.2}
-\contentsline {section}{\numberline {5.3}Weitere Ans\IeC {\"a}tze}{11}{section.5.3}
-\contentsline {section}{\numberline {5.4}N\IeC {\"a}chste Schritte}{11}{section.5.4}
-\contentsline {section}{\numberline {5.5}Ausblick}{11}{section.5.5}
-\contentsline {chapter}{Literaturverzeichnis}{13}{chapter*.3}
-\contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{14}{chapter*.3}
-\contentsline {chapter}{Abbildungsverzeichnis}{15}{chapter*.4}
-\contentsline {chapter}{Tabellenverzeichnis}{17}{chapter*.5}
-\contentsline {chapter}{Listings}{19}{chapter*.6}
-\contentsline {chapter}{\numberline {A}Anhang 1}{21}{appendix.A}
-\contentsline {chapter}{\numberline {B}Content}{51}{appendix.B}
-\contentsline {chapter}{\numberline {C}Anhang 2}{69}{appendix.C}
+\contentsline {section}{\numberline {1.2}Problembeschreibung}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Fragestellung}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Ziele dieser Arbeit}{4}{section.1.4}
+\contentsline {section}{\numberline {1.5}Abgrenzung}{4}{section.1.5}
+\contentsline {section}{\numberline {1.6}Vorgehensweise}{4}{section.1.6}
+\contentsline {section}{\numberline {1.7}Struktur der Arbeit}{4}{section.1.7}
+\contentsline {chapter}{\numberline {2}Technologieanalyse}{7}{chapter.2}
+\contentsline {chapter}{\numberline {3}Umsetzung von cJSL in Joomla}{9}{chapter.3}
+\contentsline {chapter}{\numberline {4}Entwicklung eines cJSL-Forward-Generator}{11}{chapter.4}
+\contentsline {chapter}{\numberline {5}Anwendungsm\IeC {\"o}glichkeit und Migrationsstrategie}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Auswertung}{13}{section.5.1}
+\contentsline {section}{\numberline {5.2}Weitere Ans\IeC {\"a}tze}{13}{section.5.2}
+\contentsline {section}{\numberline {5.3}N\IeC {\"a}chste Schritte}{13}{section.5.3}
+\contentsline {chapter}{\numberline {6}Fazit}{15}{chapter.6}
+\contentsline {section}{\numberline {6.1}Ausblick}{15}{section.6.1}
+\contentsline {chapter}{Literaturverzeichnis}{17}{chapter*.3}
+\contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{18}{chapter*.3}
+\contentsline {chapter}{Abbildungsverzeichnis}{19}{chapter*.4}
+\contentsline {chapter}{Tabellenverzeichnis}{21}{chapter*.5}
+\contentsline {chapter}{Listings}{23}{chapter*.6}
+\contentsline {chapter}{\numberline {A}Anhang 1}{25}{appendix.A}
+\contentsline {chapter}{\numberline {B}Anhang 2}{71}{appendix.B}

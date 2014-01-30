@@ -1,20 +1,45 @@
 \chapter{Einführung}
 \begin{quote}
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum \cite{lorem01} 
+
 \end{quote} 
 
 \section{Motivation}
 
-Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+In dieser Arbeit wollen wir eine MDD-Infrastruktur für Joomla entwickeln, um die Migration  zu erleichtern, und unsere Erweiterungen schneller und besser zu implementieren.
 
 \section{Problembeschreibung}
+Die Nutzung von Content Management System vereinfachen zwar die Gestaltung von Webapplikation, aber die Migration  zu    neuen Versionen oder die Verschmelzung von mehreren Instanz stellen von verschiedenen Schwierigkeiten. Deswegen haben wir uns entschieden, eine MDD-Infrastruktur für Joomla zu entwickeln.   
+
+\section{Fragestellung}
+\begin{itemize}
+\item Wie ist  Joomla in cJSL umgesetzt?
+\item Wie kann man einen Forward-Generator zur Erstellung eines Joomla-Instanz\cite{xtext} mit Hilfe von cJSL entwickeln?
+\item Wie kann man die  Daten aus dem cJSl-Instanz Model  mit einem Joomla Pakete zusammenbringen?
+\item Wie kann man die generierte Joomla Instanz installieren?
+\end{itemize}
 
 \section{Ziele dieser Arbeit}
 
+Die Ziele dieser Arbeit sind:
+
+\begin{itemize}
+\item Erstellung einer Abbildung von cJSL zu Joomla
+\item Implementierung eines Forward-Generator
+\item Lösungen zur Integration von Daten aus dem cJSL-Instanz Model zu einem Joomla-Pakete und zur Installation der so generierten Joomla-Instanz
+\item Vorstellung von verschiedenen Einsatzmöglichkeiten
+\end{itemize}
+
 \section{Abgrenzung}
+\begin{itemize}
+\item Der Generator begrenzt sich auf dem CMS Joomla 2.5
+\item Wir betrachten nur die Core-Erweiterungen
+\item Generiert nur Code für die Datenhaltung und Konfiguration Daten der neuen Instanz.
+\end{itemize}
 
 \section{Vorgehensweise}
+Zuerst werden wir mit Hilfe von Eclipse Modeling Framework eine MDD-Plattform aufstellen, um den Generator in Xtend zu implemetieren. Dann analysieren  wir eine Joomla Pakete und eine laufende System, um alle Spezifikation zu merken. Danach untersuchen wie diese Joomla-Spezifikationen in cJSL umgesetzt sind. Mit diesem Ergebnis werden wir unseren Forward-Generator implementieren. Mit Hilfe dieses Forward-Generators können wir verschiedene Migration Strategie für Joomla umsetzen.
 
 \section{Struktur der Arbeit}
+
+Die Arbeit besteht aus fünf Kapiteln: im ersten Kapitel "Technologieanalyse" erläuterte  ich  die verschiedenen Technologie und Konzepten wie zum Beispiel MDD-Infrastruktur und EMF, die für diese Arbeit nötig waren. Im zweiten Kapitel " Umsetzung von cJSL in Joomla " untersuche ich  cJSL und setze ich es in Joomla um. Im dritten Kapitel "Entwicklung eines cJSL-Forward-Generator" implementiere ich  auf Basis von cJSL eines Forward-Generator für Joomla. Im vierten Kapitel " Anwendungsmöglichkeit und Migrationsstrategie" stelle ich  verschiedene Anwendungsmöglichkeiten und Migrationsstrategie für eine oder mehreren Joomla Instanzen. Im fünften Kapitel "Fazit" mache ich eine Zusammenfassung der Arbeit.
+

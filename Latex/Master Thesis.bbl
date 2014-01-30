@@ -1,12 +1,11 @@
-\begin{thebibliography}{Cic02}
+\begin{thebibliography}{xte}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 \input{babelbst.tex}
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
 
-\bibitem[Cic02]{lorem01}
-\textsc{Cicero}: Lorem Ipsum (1602),
-  \urlprefix\url{http://de.wikipedia.org/wiki/Lorem_ipsum}
+\bibitem[xte]{xtext}
+\textit{Implementing Domain-Specific Languages with Xtext and Xtend}
 
 \end{thebibliography}
